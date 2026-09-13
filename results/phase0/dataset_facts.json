@@ -1,0 +1,143 @@
+{
+  "generated_at_utc": "2026-09-13T15:09:25.850540+00:00",
+  "source_csv": "data\\raw\\twcs.csv",
+  "trial_run_rows": null,
+  "schema": {
+    "columns": [
+      "tweet_id",
+      "author_id",
+      "inbound",
+      "created_at",
+      "text",
+      "response_tweet_id",
+      "in_response_to_tweet_id"
+    ],
+    "matches_documentation": true,
+    "missing_vs_doc": [],
+    "extra_vs_doc": [],
+    "dtypes_first_chunk": {
+      "tweet_id": "str",
+      "author_id": "str",
+      "inbound": "str",
+      "created_at": "str",
+      "text": "str",
+      "response_tweet_id": "str",
+      "in_response_to_tweet_id": "str"
+    }
+  },
+  "scale": {
+    "n_rows": 2811774,
+    "duplicate_tweet_ids": 0,
+    "normalised_text_values_repeated": 52925,
+    "nulls_per_column": {
+      "tweet_id": 0,
+      "author_id": 0,
+      "inbound": 0,
+      "created_at": 0,
+      "text": 0,
+      "response_tweet_id": 1040629,
+      "in_response_to_tweet_id": 794335
+    }
+  },
+  "roles": {
+    "n_inbound": 1537843,
+    "n_outbound": 1273931,
+    "n_distinct_outbound_authors": 108,
+    "n_readable_outbound_authors": 108
+  },
+  "threads": {
+    "n_tweets": 2811774,
+    "n_with_parent_field": 2017439,
+    "n_parent_resolvable": 2013577,
+    "n_orphan_replies": 3862,
+    "orphan_rate_of_replies": 0.0019143081897395658,
+    "n_conversations": 798197,
+    "n_unconverged_cycles": 0,
+    "max_walk_steps_used": 649,
+    "depth_max": 649,
+    "depth_mean": 2.0250934107791023,
+    "conv_size_mean": 3.5226566875094747,
+    "conv_size_median": 2.0,
+    "conv_size_max": 1390,
+    "conv_size_histogram": {
+      "2": 435398,
+      "3": 112012,
+      "4": 104844,
+      "5": 43400,
+      "6": 34678,
+      "7": 18433,
+      "8": 14144,
+      "9": 8556,
+      "10": 6440,
+      "11": 4369,
+      "12": 3217,
+      "13": 2356,
+      "14": 1792,
+      "15": 8558
+    },
+    "depth_histogram": {
+      "0": 798197,
+      "1": 899608,
+      "2": 421824,
+      "3": 276006,
+      "4": 139971,
+      "5": 93074,
+      "6": 53344,
+      "7": 36773,
+      "8": 23168,
+      "9": 16460,
+      "10": 11158,
+      "11": 8196,
+      "12": 6134,
+      "13": 4604,
+      "14": 3549,
+      "15": 19708
+    }
+  },
+  "brand_attribution": {
+    "n_conversations_with_a_brand_reply": 798197,
+    "n_conversations_unambiguous": 795131,
+    "n_conversations_multibrand": 3066,
+    "pct_conversations_multibrand": 0.38,
+    "note": "Selection statistics use single-brand conversations only. Multi-brand conversations are counted separately per participating brand and are NOT attributed to any one brand."
+  },
+  "text_pathologies": {
+    "n_empty": 0,
+    "n_under_5_chars": 53,
+    "n_url_only": 120,
+    "n_mention_only": 2775,
+    "n_emoji_only": 6,
+    "n_with_mask_token": 11097,
+    "n_contains_non_ascii_char": 548632,
+    "n_predominantly_non_latin_script": 21280
+  },
+  "text_pathology_definitions": {
+    "n_contains_non_ascii_char": "at least one codepoint > 127 (NOT a language or script claim)",
+    "n_predominantly_non_latin_script": ">50% of alphabetic characters outside Latin ranges, min 3 letters. Script only; Latin-script Hinglish or romanised text counts as Latin. Not language detection."
+  },
+  "time": {
+    "parse_failures": 0,
+    "min": "2008-05-08 20:13:59+00:00",
+    "max": "2017-12-03 23:14:01+00:00"
+  },
+  "ids": {
+    "tweet_id_non_numeric": 0,
+    "parent_non_numeric": 0,
+    "parent_missing": 794335
+  },
+  "hashing": {
+    "algorithm": "blake2b-64 (truncated to 63 bits)",
+    "why": "deterministic across processes; Python hash() is PYTHONHASHSEED-randomised",
+    "known_approximation": "collisions ~5e-7 over 3M strings may overstate duplicates by <1 row"
+  },
+  "deflection": {
+    "strict_matches_outbound": 190548,
+    "strict_rate_pct": 14.96,
+    "method": "regex heuristic, unvalidated \u2014 see samples file"
+  },
+  "artifacts": {
+    "brand_profile_csv": "results\\phase0\\brand_profile_raw.csv",
+    "samples_for_manual_reading": "results\\phase0\\samples_for_manual_reading.md"
+  },
+  "DISCLAIMER": "Facts only. No brand selected, no intents defined, no thresholds set. All such decisions remain open."
+}

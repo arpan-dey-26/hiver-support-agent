@@ -1,0 +1,626 @@
+{
+  "generated_at_utc": "2026-09-13T15:45:09.011173+00:00",
+  "models": [
+    {
+      "name": "models/gemini-2.5-flash",
+      "display_name": "Gemini 2.5 Flash",
+      "input_token_limit": 1048576,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": false
+    },
+    {
+      "name": "models/gemini-2.5-pro",
+      "display_name": "Gemini 2.5 Pro",
+      "input_token_limit": 1048576,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": false
+    },
+    {
+      "name": "models/gemini-2.5-flash-preview-tts",
+      "display_name": "Gemini 2.5 Flash Preview TTS",
+      "input_token_limit": 8192,
+      "output_token_limit": 16384,
+      "supports_generate_content": true,
+      "excluded_family": true,
+      "preview": true
+    },
+    {
+      "name": "models/gemini-2.5-pro-preview-tts",
+      "display_name": "Gemini 2.5 Pro Preview TTS",
+      "input_token_limit": 8192,
+      "output_token_limit": 16384,
+      "supports_generate_content": true,
+      "excluded_family": true,
+      "preview": true
+    },
+    {
+      "name": "models/gemma-4-26b-a4b-it",
+      "display_name": "Gemma 4 26B A4B IT",
+      "input_token_limit": 262144,
+      "output_token_limit": 32768,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": false
+    },
+    {
+      "name": "models/gemma-4-31b-it",
+      "display_name": "Gemma 4 31B IT",
+      "input_token_limit": 262144,
+      "output_token_limit": 32768,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": false
+    },
+    {
+      "name": "models/gemini-flash-latest",
+      "display_name": "Gemini Flash Latest",
+      "input_token_limit": 1048576,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": false
+    },
+    {
+      "name": "models/gemini-flash-lite-latest",
+      "display_name": "Gemini Flash-Lite Latest",
+      "input_token_limit": 1048576,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": false
+    },
+    {
+      "name": "models/gemini-pro-latest",
+      "display_name": "Gemini Pro Latest",
+      "input_token_limit": 1048576,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": false
+    },
+    {
+      "name": "models/gemini-2.5-flash-lite",
+      "display_name": "Gemini 2.5 Flash-Lite",
+      "input_token_limit": 1048576,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": false
+    },
+    {
+      "name": "models/gemini-2.5-flash-image",
+      "display_name": "Nano Banana",
+      "input_token_limit": 32768,
+      "output_token_limit": 32768,
+      "supports_generate_content": true,
+      "excluded_family": true,
+      "preview": false
+    },
+    {
+      "name": "models/gemini-3-flash-preview",
+      "display_name": "Gemini 3 Flash Preview",
+      "input_token_limit": 1048576,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": true
+    },
+    {
+      "name": "models/gemini-3.1-pro-preview",
+      "display_name": "Gemini 3.1 Pro Preview",
+      "input_token_limit": 1048576,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": true
+    },
+    {
+      "name": "models/gemini-3.1-pro-preview-customtools",
+      "display_name": "Gemini 3.1 Pro Preview Custom Tools",
+      "input_token_limit": 1048576,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": true
+    },
+    {
+      "name": "models/gemini-3.1-flash-lite-preview",
+      "display_name": "Gemini 3.1 Flash Lite Preview",
+      "input_token_limit": 1048576,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": true
+    },
+    {
+      "name": "models/gemini-3.1-flash-lite",
+      "display_name": "Gemini 3.1 Flash Lite",
+      "input_token_limit": 1048576,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": false
+    },
+    {
+      "name": "models/gemini-3-pro-image-preview",
+      "display_name": "Nano Banana Pro",
+      "input_token_limit": 131072,
+      "output_token_limit": 32768,
+      "supports_generate_content": true,
+      "excluded_family": true,
+      "preview": true
+    },
+    {
+      "name": "models/gemini-3-pro-image",
+      "display_name": "Nano Banana Pro",
+      "input_token_limit": 131072,
+      "output_token_limit": 32768,
+      "supports_generate_content": true,
+      "excluded_family": true,
+      "preview": false
+    },
+    {
+      "name": "models/nano-banana-pro-preview",
+      "display_name": "Nano Banana Pro",
+      "input_token_limit": 131072,
+      "output_token_limit": 32768,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": true
+    },
+    {
+      "name": "models/gemini-3.1-flash-image-preview",
+      "display_name": "Nano Banana 2",
+      "input_token_limit": 65536,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": true,
+      "preview": true
+    },
+    {
+      "name": "models/gemini-3.1-flash-image",
+      "display_name": "Nano Banana 2",
+      "input_token_limit": 65536,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": true,
+      "preview": false
+    },
+    {
+      "name": "models/gemini-3.1-flash-lite-image",
+      "display_name": "Nano Banana 2 Lite",
+      "input_token_limit": 65536,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": true,
+      "preview": false
+    },
+    {
+      "name": "models/gemini-3.5-flash",
+      "display_name": "Gemini 3.5 Flash",
+      "input_token_limit": 1048576,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": false
+    },
+    {
+      "name": "models/gemini-3.5-flash-lite",
+      "display_name": "Gemini 3.5 Flash Lite",
+      "input_token_limit": 1048576,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": false
+    },
+    {
+      "name": "models/gemini-omni-flash-preview",
+      "display_name": "Gemini Omni Flash Preview",
+      "input_token_limit": 131072,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": true
+    },
+    {
+      "name": "models/gemini-omni-1.1-flash",
+      "display_name": "Gemini Omni 1.1 Flash",
+      "input_token_limit": 131072,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": false
+    },
+    {
+      "name": "models/gemini-3.5-transcribe",
+      "display_name": "Gemini 3.5 Transcribe",
+      "input_token_limit": 98304,
+      "output_token_limit": 32768,
+      "supports_generate_content": true,
+      "excluded_family": true,
+      "preview": false
+    },
+    {
+      "name": "models/gemini-3.6-flash",
+      "display_name": "Gemini 3.6 Flash",
+      "input_token_limit": 1048576,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": false
+    },
+    {
+      "name": "models/gemini-3.7-flash",
+      "display_name": "Gemini 3.7 Flash",
+      "input_token_limit": 1048576,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": false
+    },
+    {
+      "name": "models/gemini-3.8-flash",
+      "display_name": "Gemini 3.8 Flash",
+      "input_token_limit": 1048576,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": false
+    },
+    {
+      "name": "models/lyria-3-clip-preview",
+      "display_name": "Lyria 3 Clip Preview",
+      "input_token_limit": 1048576,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": true
+    },
+    {
+      "name": "models/lyria-3-pro-preview",
+      "display_name": "Lyria 3 Pro Preview",
+      "input_token_limit": 1048576,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": true
+    },
+    {
+      "name": "models/lyria-3.5",
+      "display_name": "Lyria 3.5",
+      "input_token_limit": 1048576,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": false
+    },
+    {
+      "name": "models/gemini-3.1-flash-tts-preview",
+      "display_name": "Gemini 3.1 Flash TTS Preview",
+      "input_token_limit": 8192,
+      "output_token_limit": 16384,
+      "supports_generate_content": true,
+      "excluded_family": true,
+      "preview": true
+    },
+    {
+      "name": "models/gemini-robotics-er-2-preview",
+      "display_name": "Gemini Robotics-ER 2 Preview",
+      "input_token_limit": 131072,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": true
+    },
+    {
+      "name": "models/gemini-2.5-computer-use-preview-10-2025",
+      "display_name": "Gemini 2.5 Computer Use Preview 10-2025",
+      "input_token_limit": 131072,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": true
+    },
+    {
+      "name": "models/antigravity-preview-05-2026",
+      "display_name": "Antigravity Agent Preview",
+      "input_token_limit": 131072,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": true
+    },
+    {
+      "name": "models/deep-research-max-preview-04-2026",
+      "display_name": "Deep Research Max Preview (Apr-21-2026)",
+      "input_token_limit": 131072,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": true
+    },
+    {
+      "name": "models/deep-research-preview-04-2026",
+      "display_name": "Deep Research Preview (Apr-21-2026)",
+      "input_token_limit": 131072,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": true
+    },
+    {
+      "name": "models/deep-research-pro-preview-12-2025",
+      "display_name": "Deep Research Pro Preview (Dec-12-2025)",
+      "input_token_limit": 131072,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": true
+    },
+    {
+      "name": "models/gemini-embedding-001",
+      "display_name": "Gemini Embedding 001",
+      "input_token_limit": 2048,
+      "output_token_limit": 1,
+      "supports_generate_content": false,
+      "excluded_family": true,
+      "preview": false
+    },
+    {
+      "name": "models/gemini-embedding-2-preview",
+      "display_name": "Gemini Embedding 2 Preview",
+      "input_token_limit": 8192,
+      "output_token_limit": 1,
+      "supports_generate_content": false,
+      "excluded_family": true,
+      "preview": true
+    },
+    {
+      "name": "models/gemini-embedding-2",
+      "display_name": "Gemini Embedding 2",
+      "input_token_limit": 8192,
+      "output_token_limit": 1,
+      "supports_generate_content": false,
+      "excluded_family": true,
+      "preview": false
+    },
+    {
+      "name": "models/aqa",
+      "display_name": "Model that performs Attributed Question Answering.",
+      "input_token_limit": 7168,
+      "output_token_limit": 1024,
+      "supports_generate_content": false,
+      "excluded_family": true,
+      "preview": false
+    },
+    {
+      "name": "models/veo-3.1-generate-preview",
+      "display_name": "Veo 3.1",
+      "input_token_limit": 480,
+      "output_token_limit": 8192,
+      "supports_generate_content": false,
+      "excluded_family": true,
+      "preview": true
+    },
+    {
+      "name": "models/veo-3.1-fast-generate-preview",
+      "display_name": "Veo 3.1 fast",
+      "input_token_limit": 480,
+      "output_token_limit": 8192,
+      "supports_generate_content": false,
+      "excluded_family": true,
+      "preview": true
+    },
+    {
+      "name": "models/veo-3.1-lite-generate-preview",
+      "display_name": "Veo 3.1 lite",
+      "input_token_limit": 480,
+      "output_token_limit": 8192,
+      "supports_generate_content": false,
+      "excluded_family": true,
+      "preview": true
+    },
+    {
+      "name": "models/gemini-3.5-transcribe-live",
+      "display_name": "Gemini 3.5 Transcribe Live",
+      "input_token_limit": 131072,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": true,
+      "preview": false
+    },
+    {
+      "name": "models/gemini-2.5-flash-native-audio-latest",
+      "display_name": "Gemini 2.5 Flash Native Audio Latest",
+      "input_token_limit": 131072,
+      "output_token_limit": 8192,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": false
+    },
+    {
+      "name": "models/gemini-2.5-flash-native-audio-preview-09-2025",
+      "display_name": "Gemini 2.5 Flash Native Audio Preview 09-2025",
+      "input_token_limit": 131072,
+      "output_token_limit": 8192,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": true
+    },
+    {
+      "name": "models/gemini-2.5-flash-native-audio-preview-12-2025",
+      "display_name": "Gemini 2.5 Flash Native Audio Preview 12-2025",
+      "input_token_limit": 131072,
+      "output_token_limit": 8192,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": true
+    },
+    {
+      "name": "models/gemini-3.1-flash-live-preview",
+      "display_name": "Gemini 3.1 Flash Live Preview",
+      "input_token_limit": 131072,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": true
+    },
+    {
+      "name": "models/gemini-robotics-er-2-streaming-preview",
+      "display_name": "Gemini Robotics-ER 2 Streaming Preview",
+      "input_token_limit": 131072,
+      "output_token_limit": 65536,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": true
+    },
+    {
+      "name": "models/gemini-3.5-live-translate-preview",
+      "display_name": "Gemini 3.5 Live Translate Preview",
+      "input_token_limit": 16384,
+      "output_token_limit": 32768,
+      "supports_generate_content": true,
+      "excluded_family": false,
+      "preview": true
+    },
+    {
+      "name": "models/lyria-realtime-exp",
+      "display_name": "Lyria Realtime Experimental",
+      "input_token_limit": 1048576,
+      "output_token_limit": 65536,
+      "supports_generate_content": false,
+      "excluded_family": false,
+      "preview": true
+    }
+  ],
+  "smoke_test": [
+    {
+      "model": "models/gemini-3.5-flash-lite",
+      "ok": true,
+      "latency_s": 1.4,
+      "tokens": {
+        "prompt": 148,
+        "output": 211,
+        "total": 359
+      },
+      "raw_len": 521,
+      "json_valid": true,
+      "rows_returned": 6,
+      "labels_in_vocabulary": 6,
+      "fixtures_total": 6,
+      "synthetic_fixture_matches": 6
+    },
+    {
+      "model": "models/gemini-3.1-flash-lite",
+      "ok": true,
+      "latency_s": 1.18,
+      "tokens": {
+        "prompt": 148,
+        "output": 208,
+        "total": 356
+      },
+      "raw_len": 518,
+      "json_valid": true,
+      "rows_returned": 6,
+      "labels_in_vocabulary": 6,
+      "fixtures_total": 6,
+      "synthetic_fixture_matches": 6
+    },
+    {
+      "model": "models/gemini-2.5-flash-lite",
+      "ok": false,
+      "error": "ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API.', 'status': 'NOT_FOUND'}}",
+      "latency_s": 0.44
+    }
+  ],
+  "smoke_test_note": "WHAT THIS CHECKS: API access, structured-JSON compatibility, output schema validity, latency and token usage, on six synthetic generic fixtures. WHAT IT DOES NOT CHECK: model quality, task suitability, or classification accuracy. 'synthetic_fixture_matches' is a sanity signal only; it is NOT used to rank or select models, and must not be cited as evidence that a model is good enough. Model quality is measured on the DEV split in Phase 5.",
+  "recommendation": {
+    "starting_generation_model": "models/gemini-3.5-flash-lite",
+    "starting_judge_model": "models/gemini-3.1-flash-lite",
+    "basis": "cheapest candidate whose call succeeded and returned valid structured JSON \u2014 a COMPATIBILITY result, not a quality verdict",
+    "status": "PROVISIONAL \u2014 revisit after DEV measurement in Phase 5",
+    "not_established_here": [
+      "that this model is accurate enough for intent classification",
+      "that this model writes acceptable grounded replies",
+      "that this model is a reliable judge"
+    ],
+    "warning": null
+  },
+  "quota_probe": {
+    "calls_attempted": 8,
+    "calls_succeeded": 8,
+    "rate_limited": 0,
+    "other_errors": 0,
+    "latency_s_mean": 0.88,
+    "latency_s_max": 1.07,
+    "observed_throughput_rpm": 68.2,
+    "error_samples": [],
+    "note": "observed_throughput_rpm is what THIS sequential loop achieved; it is not the account's RPM limit. Read the real limit from AI Studio and pass it as --rpm."
+  },
+  "budget": {
+    "line_items": [
+      {
+        "item": "gold pre-annotation (candidates)",
+        "calls": 200
+      },
+      {
+        "item": "silver labels for B1 (batched)",
+        "calls": 75
+      },
+      {
+        "item": "agent: intent classification",
+        "calls": 150
+      },
+      {
+        "item": "agent: grounded generation",
+        "calls": 150
+      },
+      {
+        "item": "B2 zero-shot: classification",
+        "calls": 150
+      },
+      {
+        "item": "B2 zero-shot: generation",
+        "calls": 150
+      },
+      {
+        "item": "B3 random-evidence placebo: generation",
+        "calls": 150
+      },
+      {
+        "item": "judge: systems x gold",
+        "calls": 450
+      },
+      {
+        "item": "judge: agreement subset re-run",
+        "calls": 50
+      }
+    ],
+    "subtotal_calls": 1525,
+    "retry_overhead_calls": 228,
+    "total_calls": 1753,
+    "estimated_total_tokens": 1887981,
+    "assumptions": {
+      "gold_n": 150,
+      "gold_candidates": 200,
+      "dev_silver_n": 1500,
+      "silver_batch_size": 20,
+      "judge_systems": 3,
+      "agreement_n": 50,
+      "retry_overhead": 0.15,
+      "token_multiplier": 3.0
+    },
+    "observed_limits": {
+      "rpm": null,
+      "rpd": null
+    },
+    "verdict": "UNKNOWN",
+    "notes": [
+      "Pass --rpd (from AI Studio) to get a feasibility verdict."
+    ]
+  }
+}
