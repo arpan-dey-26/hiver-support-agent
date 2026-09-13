@@ -1,0 +1,93 @@
+{
+  "version": "v1",
+  "brand": "hulu_support",
+  "provenance": "LLM-proposed from KMeans clusters of real DEV-split customer messages. Human-reviewable; NOT hand-crafted. Discovered on DEV only — gold_pool was never read (leakage path L5).",
+  "discovery": {
+    "n_dev_messages": 4045,
+    "n_clusters": 14,
+    "samples_per_cluster": 12,
+    "model": "models/gemini-3.5-flash-lite",
+    "prompt_version": "v1",
+    "seed": 42
+  },
+  "other_label": "other",
+  "intents": [
+    {
+      "name": "content_availability",
+      "definition": "Requests or complaints regarding missing seasons, episodes, movies, or networks on Hulu.",
+      "includes": "Messages asking when a specific season/episode will be on Hulu, or complaining that a show/network is missing.",
+      "excludes": "Issues with technical playback errors or missing episodes due to a watchlist/app bug.",
+      "account_specific": false,
+      "example_messages": [
+        "When will season 3 be available on Hulu ??",
+        "Why isn’t season 18 on Netflix or Hulu"
+      ]
+    },
+    {
+      "name": "account_and_billing_management",
+      "definition": "Inquiries or issues related to Hulu account settings, membership plans, subscriptions, and billing charges.",
+      "includes": "Questions about account sharing, unexpected charges, signing up, canceling, or changing subscription plans.",
+      "excludes": "General app navigation complaints or streaming quality issues not directly related to billing.",
+      "account_specific": true,
+      "example_messages": [
+        "Can you help me with a strange charge on my bank account from Hulu?",
+        "How do I cancel crappy Hulu???"
+      ]
+    },
+    {
+      "name": "live_tv_streaming",
+      "definition": "Questions, feature requests, or technical issues specifically concerning Hulu + Live TV and local channels/sports.",
+      "includes": "Issues streaming live TV, local affiliate outages, channel guide complaints, and requests for specific live channels.",
+      "excludes": "General on-demand video streaming issues or non-live app bugs.",
+      "account_specific": false,
+      "example_messages": [
+        "Hey why can't I stream live from my laptop anymore? For the past two days I get error playlist-1-FDC2F871.",
+        "When will NBC live be available?"
+      ]
+    },
+    {
+      "name": "commercials_and_ads",
+      "definition": "Complaints regarding ad repetition, ad volume, freezing caused by ads, or seeing ads on commercial-free plans.",
+      "includes": "Complaints about repetitive commercials, loud ad volumes, ad-induced crashes, and getting ads despite paying for no-commercials.",
+      "excludes": "General video buffering or playback errors unrelated to ad breaks.",
+      "account_specific": false,
+      "example_messages": [
+        "Why doesn’t Hulu ever have any variety to their commercials. I’ve seen the same Biz Markie Gap commercial like 1 million times.",
+        "I pay for Hulu with no ads and I’m deadass watching an ad right now."
+      ]
+    },
+    {
+      "name": "technical_support_and_errors",
+      "definition": "Reports of error codes, app crashes, buffering, streaming failures, and troubleshooting steps tried by the user.",
+      "includes": "Error codes (e.g., error 400, teal-8, 404), app freezing, casting failures, and device compatibility issues.",
+      "excludes": "Feature requests, content availability questions, and billing issues.",
+      "account_specific": false,
+      "example_messages": [
+        "I’m still getting the same error code 400 I reset my internet and all",
+        "My Hulu is not working. Worked last night. Other apps on my tv are fine."
+      ]
+    },
+    {
+      "name": "app_interface_and_ux",
+      "definition": "Feedback, complaints, or questions regarding the Hulu app interface, navigation, updates, and user experience.",
+      "includes": "Complaints about the new interface, Roku/Apple TV app navigation, missing features like skip intro or download options, and UI layout changes.",
+      "excludes": "Technical playback error codes or streaming downtime.",
+      "account_specific": false,
+      "example_messages": [
+        "I've been using the Hulu app on Roku for over a month now and I still hate the new interface.",
+        "Your app on Apple TV is the worst UX ever."
+      ]
+    },
+    {
+      "name": "watchlist_and_playback_tracking",
+      "definition": "Issues where watchlists, history, new episode indicators, or autoplay fail to track correctly.",
+      "includes": "Watchlist not updating, episodes marked incorrectly as new, episodes restarting from the beginning, or autoplay failing to advance.",
+      "excludes": "Content completely missing from the platform library.",
+      "account_specific": false,
+      "example_messages": [
+        "why is my watchlist not updating with new episodes?",
+        "It’s not showing when there are new episodes and when you watch a new episode it continues to say it’s a new episode"
+      ]
+    }
+  ]
+}
