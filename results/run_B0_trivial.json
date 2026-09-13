@@ -1,0 +1,2252 @@
+[
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":559291
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":464786
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2980662
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":460328
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":565509
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2971763
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2927259
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":561124
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":458827
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":561153
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":597214
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2901719
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2872803
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2894845
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":457266
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":490963
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2909735
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2890153
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2898152
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2914747
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":569000
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":564389
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2903394
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":460357
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":447712
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2914754
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":542659
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2914719
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":525111
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2969316
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":486319
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":567904
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":97522
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":507610
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2944190
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2912964
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2857573
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":573278
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2970398
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":499406
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":559349
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":511226
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":561130
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":454491
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2872794
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2976825
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":591332
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2923376
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2943115
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":555236
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":507623
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2875707
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2914763
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":521603
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":585024
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":565537
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":573298
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2873771
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":572603
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":561145
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":509461
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2862210
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":92899
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":451512
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":460326
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2929261
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2927270
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2875741
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":99707
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2865302
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":453080
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2927255
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":517238
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":92917
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":455699
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":511243
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2943105
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2969303
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":501395
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":511203
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2928624
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":89762
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":525135
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":570949
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":566860
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":493222
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2867805
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":563183
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":520330
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2972727
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":97514
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2905255
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2960386
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2927276
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":501399
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":525073
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2963470
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":559295
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2923369
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":460353
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":464804
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":565515
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":565524
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2874926
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":570964
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2928631
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2894838
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":511235
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2953086
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2914764
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":511232
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":511239
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2903398
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":557403
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":573265
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2971779
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":565560
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2919721
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2907166
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":549961
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":864679
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":465661
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":566881
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":517227
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":488621
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":457258
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":563204
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":561135
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2919738
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2905261
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2972718
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":457263
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":559344
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2925915
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":594442
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2914721
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2872787
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2929271
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2874917
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":460324
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2874916
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":519026
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":520327
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2867812
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":465684
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":2970421
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":564392
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":570973
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":92896
+  },
+  {
+    "intent":"other",
+    "intent_confidence":1.0,
+    "reply":"@116967 We're sorry to hear this! If you're having any issues, please let us know the details and the device in use. We're here to help.",
+    "decision":"auto_handle",
+    "reason_codes":[
+      "trivial_baseline"
+    ],
+    "reason":"auto_handle \u2014 trivial baseline always auto-handles.",
+    "evidence":[
+
+    ],
+    "reply_type":"draft_resolution",
+    "message_id":573263
+  }
+]

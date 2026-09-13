@@ -1,0 +1,52 @@
+{
+  "generated_at_utc": "2026-09-13T16:26:37.381506+00:00",
+  "brand": "hulu_support",
+  "seed": 42,
+  "n_conversations_brand": 14871,
+  "n_multibrand_conversations_excluded": 84,
+  "n_exchanges_before_dedup": 21237,
+  "n_gold_pool_duplicates_dropped": 2,
+  "temporal_split": {
+    "cut_1": "2017-11-14 00:02:26+00:00",
+    "cut_2": "2017-11-27 20:48:45+00:00",
+    "n_conversations_excluded_straddling_a_cut": 175,
+    "n_exchanges_excluded": 645,
+    "mean_span_days_kept": 0.75,
+    "mean_span_days_dropped": 20.851,
+    "known_bias": "excluded conversations are long-running by construction, so the splits under-represent long conversations. The alternative -- splitting a conversation across windows -- would be a leakage path, so this trade was taken deliberately and is reported rather than hidden."
+  },
+  "n_gold_items_with_exact_twin_in_history": 13,
+  "n_exchanges": 20590,
+  "dedup_policy": "Cross-split text dedup deliberately NOT applied: identical questions from different customers are legitimate historical precedent, and dropping them systematically strips the later (evaluation) splits. Leakage is closed by conversation-level time-ordered splitting plus a strict time filter at retrieval. gold_pool is deduplicated within itself, and gold items with an exact twin in history are FLAGGED for slice analysis, not deleted.",
+  "split_counts": {
+    "history": 14444,
+    "dev": 4070,
+    "gold_pool": 2076
+  },
+  "split_conversation_overlaps": {
+    "dev&history": 0,
+    "dev&gold_pool": 0,
+    "gold_pool&history": 0
+  },
+  "split_time_spans": {
+    "history": [
+      "2014-09-15 23:53:27+00:00",
+      "2017-11-13 23:57:49+00:00"
+    ],
+    "dev": [
+      "2017-11-14 00:02:26+00:00",
+      "2017-11-27 20:29:22+00:00"
+    ],
+    "gold_pool": [
+      "2017-11-27 20:48:45+00:00",
+      "2017-12-03 22:13:23+00:00"
+    ]
+  },
+  "proxy_signal_rates": {
+    "is_deflection_pct": 0.52,
+    "deflection_only_pct": 0.21,
+    "customer_thanked_after_pct": 12.3,
+    "mean_reply_words": 25.3,
+    "NOTE": "observable proxies only \u2014 NOT validated as resolution (PENDING-1)"
+  }
+}

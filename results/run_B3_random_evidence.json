@@ -1,0 +1,3245 @@
+[
+  {
+    "message_id":559291,
+    "intent":"technical_support_and_errors",
+    "intent_confidence":0.9,
+    "intent_runner_up":"live_tv_streaming",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"Let's see if we can help! Which device are you using to stream? See if these steps lead to an improvement: https:\/\/t.co\/HXpLyTU79x.",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":1928237,
+        "conversation_id":1774378,
+        "customer_snippet":"@hulu_support Are you guys down? My tv says Hulu was unable to start",
+        "brand_reply_snippet":"@573848 Uh oh! Sorry for the trouble, Erin. What brand is your smart TV? Let us know if the error persists after: https:\/\/t.co\/HXpLyTU79x.",
+        "is_deflection":false,
+        "reply_word_count":26
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":848760,
+        "conversation_id":759934,
+        "customer_snippet":"@hulu_support Love the service and the channels,HATE the bandwidth and buffering issues. Very very Beta . if your gonna charge me 45 bucks it should work!",
+        "brand_reply_snippet":"@380332 Let's see if we can help! Which device are you using to stream? See if these steps lead to an improvement: https:\/\/t.co\/HXpLyTU79x.",
+        "is_deflection":false,
+        "reply_word_count":27
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":1587973,
+        "conversation_id":1443847,
+        "customer_snippet":"@hulu_support @252199 No error just black screen and Fire TV loads into its main menu without restarting, have tried reinstall of Hulu app, same problem",
+        "brand_reply_snippet":"@488404 Hm try unplugging your device for a few minutes then plugging back in. If no change, please reach out: https:\/\/t.co\/6YdK7bvQN7",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":260173,
+        "conversation_id":224161,
+        "customer_snippet":"@hulu_support I can\u2019t click on any episodes. They show up as coming soon or ready to view but when I click\/select I\u2019m unable to view on the app.",
+        "brand_reply_snippet":"@177905 Eps marked as \"upcoming\" are not yet available. Reach out here so we can further assist with the others: https:\/\/t.co\/6YdK7bvQN7",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":1093673,
+        "conversation_id":986340,
+        "customer_snippet":"@hulu_support Don't try to blame webspeeds either. 35 down 3 up. Amazon and Netflix work. Get it together.  There's no way you don't realize the outage.",
+        "brand_reply_snippet":"@174089 Hi! Are you using a Samsung device by chance? If so, we're investigating. Please reach out here: https:\/\/t.co\/6YdK7bNrEF.",
+        "is_deflection":false,
+        "reply_word_count":23
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":1
+  },
+  {
+    "message_id":464786,
+    "intent":"app_interface_and_ux",
+    "intent_confidence":0.95,
+    "intent_runner_up":"other",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We'll share this feedback w\/ our team!",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":2606384,
+        "conversation_id":2437203,
+        "customer_snippet":"@115940 live TV it's ALWAYS buffering, fix your service!",
+        "brand_reply_snippet":"@545842 Hey Zachary we have put some changes in place since your original tweet. Are you still experiencing the same issues?",
+        "is_deflection":false,
+        "reply_word_count":21
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":266337,
+        "conversation_id":229878,
+        "customer_snippet":".@115940 Your new app interface on Roku is a huge pain. I have to go search for shows that were right at the top of the old version! \ud83d\ude2d\ud83d\ude31",
+        "brand_reply_snippet":"@179447 We'll share this feedback w\/ our team, Mary! To make the dark overlay go away sooner, press the Back button. Hope this helps.",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":1276853,
+        "conversation_id":1155853,
+        "customer_snippet":"@hulu_support @115940 Need help!! https:\/\/t.co\/mIXk4jQpdf",
+        "brand_reply_snippet":"@418864 Sorry for the delay! Please try: https:\/\/t.co\/C3IOhQoHbi. If that's no help, let us know! We'll circle back to assist further.",
+        "is_deflection":false,
+        "reply_word_count":26
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":1827917,
+        "conversation_id":1675466,
+        "customer_snippet":"@hulu_support first time watching a live sporting event and the performance has been awful. Any tips? on a 250 MBPS connection",
+        "brand_reply_snippet":"@473071 Oh no! Which device do you use? And which game is affected? If you try a quick device\/modem reboot, any change after?",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":1775167,
+        "conversation_id":1620810,
+        "customer_snippet":"@115940 I\u2019m severely disappointed in your live TV option. It\u2019s constantly skipping around, causing me to miss the game I\u2019m watching.",
+        "brand_reply_snippet":"@180570 Yikes! We're sorry to hear this, Brad. What device are you using? Are all networks affected? The more info, the better.",
+        "is_deflection":false,
+        "reply_word_count":23
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2980662,
+    "intent":"account_and_billing_management",
+    "intent_confidence":0.8,
+    "intent_runner_up":"technical_support_and_errors",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "intent_not_auto_allowed"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"Feel free to tweet us back with more info, or reach out by phone\/chat for real-time assistance: https:\/\/t.co\/6YdK7bvQN7",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":1236631,
+        "conversation_id":1118903,
+        "customer_snippet":"@hulu_support I actually do have a question about how our device and Hulu app behave. Can I Direct message you to see if there's a resolution?",
+        "brand_reply_snippet":"@410033 Feel free to tweet us back with more info, or reach out by phone\/chat for real-time assistance: https:\/\/t.co\/6YdK7bvQN7",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":2160295,
+        "conversation_id":2003070,
+        "customer_snippet":"@hulu_support ESPN and my device is an Amazon fire stick",
+        "brand_reply_snippet":"@634478 Thanks! When you get a chance: https:\/\/t.co\/TR6ei0cnf1. Call or chat us if the stream still fouls out (https:\/\/t.co\/6YdK7bvQN7)",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":1071649,
+        "conversation_id":965685,
+        "customer_snippet":"@372888 @hulu_support They won\u2019t help. I\u2019ve been experiencing issues for WEEKS and their support sucks. None of your janky solutions work!! \ud83d\ude21\ud83d\ude21 I\u2019m just gon cancel",
+        "brand_reply_snippet":"@360460 We'd hate to see you go, Tye. Have you had a chance to contact us by phone or chat: https:\/\/t.co\/6YdK7bvQN7 for further support?",
+        "is_deflection":false,
+        "reply_word_count":28
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":1001540,
+        "conversation_id":901674,
+        "customer_snippet":"@hulu_support Paying for #Hulu $40\/mo but still being forced to watch ads?! How greedy can you be?! Definitely spreading the word. #unsub",
+        "brand_reply_snippet":"@357098 We're sorry to hear about any frustration! Ads are included with live TV and network on-demand content: https:\/\/t.co\/8wrwlQWDIl.",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":414519,
+        "conversation_id":362374,
+        "customer_snippet":"The new @115940 iPad app is truly awful. How did they make it this bad? #wtfwereyouthinking #bringbacktheoldhulu",
+        "brand_reply_snippet":"@213884 Sorry for any frustration with our new app! If you'd like, you can leave feedback and suggestions at: https:\/\/t.co\/y5paRNIjoX \ud83d\udc9a",
+        "is_deflection":false,
+        "reply_word_count":24
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":460328,
+    "intent":"content_availability",
+    "intent_confidence":0.9,
+    "intent_runner_up":"other",
+    "silver_intent":"content_availability",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "low_quality_input",
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 low_quality_input: message has fewer than 4 content words, too little to act on. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you share a few more details so we can help?",
+    "reply_type":"holding_ack",
+    "draft_reply":"Hi! We don't yet have the rights to stream that, but we'll definitely let our content team know you can't wait. \ud83d\udc4d",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":1334005,
+        "conversation_id":1209215,
+        "customer_snippet":"@hulu_support It's ok now. It just needed to be refreshed and signed in and out and again.",
+        "brand_reply_snippet":"@431206 Ahh, well, that's great news! We're glad to hear that you're back to your favorite shows and movies. #happystreaming \u2705",
+        "is_deflection":false,
+        "reply_word_count":23
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":760775,
+        "conversation_id":680090,
+        "customer_snippet":"@hulu_support I thought you\u2019ll were adding M*A*S*H, or was that fake new? #FakeNews",
+        "brand_reply_snippet":"@301791 Hi, Matt! We don't yet have the rights to stream M*A*S*H, but we'll definitely let our content team know you can't wait. \ud83d\udc4d",
+        "is_deflection":false,
+        "reply_word_count":29
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":1116765,
+        "conversation_id":1008062,
+        "customer_snippet":"@hulu_support hey I have Live TV Hulu and its saying NBC Sports California is supposed to be showing the Kings vs Suns game but it uff? help",
+        "brand_reply_snippet":"@383510 Oh no! Thanks for reporting this, Rob. We are currently investigating and appreciate your patience while we work on it.",
+        "is_deflection":false,
+        "reply_word_count":21
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":1109820,
+        "conversation_id":1001491,
+        "customer_snippet":"@hulu_support Amazon Fire TV",
+        "brand_reply_snippet":"@381901 Thanks, JB. Let's try: https:\/\/t.co\/TR6ei0cnf1. Call or chat us if that doesn't take care of it ( https:\/\/t.co\/6YdK7bvQN7 ).",
+        "is_deflection":false,
+        "reply_word_count":26
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":2140195,
+        "conversation_id":1983421,
+        "customer_snippet":"@hulu_support at least 3 times now, we have watched a movie but I\ufe0ft stops loading the last 5 minutes of the movie. WiFi is not the problem",
+        "brand_reply_snippet":"@629395 Oh no! Which device do you use? For now, please try a quick reboot of your device+modem along with: https:\/\/t.co\/HXpLyTU79x.",
+        "is_deflection":false,
+        "reply_word_count":25
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":565509,
+    "intent":"commercials_and_ads",
+    "intent_confidence":0.85,
+    "intent_runner_up":"other",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "conflicting_precedents",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":387403,
+        "conversation_id":339117,
+        "customer_snippet":"@hulu_support they work on the computer. but not when i try to watch it through my roku.",
+        "brand_reply_snippet":"@198340 Try enabling captions on the device level: Roku Home screen &gt; Settings \n&gt; Captions &gt; Mode &gt; On Always. That should do it!",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":2201197,
+        "conversation_id":2042541,
+        "customer_snippet":"@hulu_support I think the samsung tv app isn't working.",
+        "brand_reply_snippet":"@643745 Apologies! We're looking into this behavior. In the meantime, please use a different supported device: https:\/\/t.co\/iycrTfWKgB.",
+        "is_deflection":false,
+        "reply_word_count":21
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":2145390,
+        "conversation_id":1988341,
+        "customer_snippet":"@115940 can u update ahs and flash?????",
+        "brand_reply_snippet":"@630704 We'll share the interest in more AHS w\/on-demand plans! S7 of AHS &amp; S4 of The Flash are available now with our Live TV add-on!",
+        "is_deflection":false,
+        "reply_word_count":30
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":850283,
+        "conversation_id":761323,
+        "customer_snippet":"@hulu_support I'm using a Roku Express, it happens mainly on live TV during football or baseball. FS1, cbs, fox",
+        "brand_reply_snippet":"@322013 Got it. Try: https:\/\/t.co\/wAoEicy9CF. No improvement? Chat: https:\/\/t.co\/6YdK7bvQN7 w\/ us so we can further investigate for you.",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":1527403,
+        "conversation_id":1387811,
+        "customer_snippet":"@115940 any chance you will be live streaming the American music awards?",
+        "brand_reply_snippet":"@474272 Hi there! We don't have any info about that, but we'd recommend: https:\/\/t.co\/rjjbP5u0Fj to see channel availability for your area.",
+        "is_deflection":false,
+        "reply_word_count":26
+      }
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":true
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2971763,
+    "intent":"technical_support_and_errors",
+    "intent_confidence":0.8,
+    "intent_runner_up":"app_interface_and_ux",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"Apologies for any trouble! Let us know the devices affected and try: https:\/\/t.co\/HXpLyTU79x.",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":2306863,
+        "conversation_id":2145264,
+        "customer_snippet":"LIVID that @27523 is no longer on @115940 like excuse me how am i supposed to keep up?!!!! #DoBetter",
+        "brand_reply_snippet":"@604949 Sorry for any confusion! We have the rights to stream the current season, which you can watch here: https:\/\/t.co\/YFWjPk4PlY.",
+        "is_deflection":false,
+        "reply_word_count":23
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":1967209,
+        "conversation_id":1811696,
+        "customer_snippet":"Ditto that @hulu_support! \ud83d\udc4e\ud83c\udffb\ud83d\udc4e\ud83c\udffb\ud83d\udc4e\ud83c\udffb https:\/\/t.co\/awrQZjZ01U",
+        "brand_reply_snippet":"@445038 Sorry for the trouble, Angie! It looks like we hit a foul ball, but were able to get things back in order: https:\/\/t.co\/az3EROTani",
+        "is_deflection":false,
+        "reply_word_count":27
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":1112350,
+        "conversation_id":1003840,
+        "customer_snippet":"@hulu_support your streaming is terrible the only reason I pay for this is to watch football and your stream keeps restarting",
+        "brand_reply_snippet":"@382523 Apologies for any trouble, Maura! We're investigating. For now, let us know the devices affected and try: https:\/\/t.co\/HXpLyTU79x.",
+        "is_deflection":false,
+        "reply_word_count":23
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":2584445,
+        "conversation_id":2415668,
+        "customer_snippet":"@hulu_support why dont i get my local cbs on hulu live tv? i have the one from chicago but i live near indianapolis",
+        "brand_reply_snippet":"@732365 Enter your ZIP for a network lineup: https:\/\/t.co\/rjjbP5u0Fj. If things don't match up, reach out: https:\/\/t.co\/6YdK7bvQN7.",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":1646561,
+        "conversation_id":1499829,
+        "customer_snippet":"@hulu_support I will do so tomorrow. Going to finish watching the game now. Thx",
+        "brand_reply_snippet":"@503100 Sounds good, Patty! Our team will be on standby to further assist and happy streaming!",
+        "is_deflection":false,
+        "reply_word_count":16
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":1
+  },
+  {
+    "message_id":2927259,
+    "intent":"technical_support_and_errors",
+    "intent_confidence":0.9,
+    "intent_runner_up":"app_interface_and_ux",
+    "silver_intent":"technical_support_and_errors",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 5 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"We'll share your feedback. If you'd like us to further assist, feel free to give us a call.",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":203628,
+        "conversation_id":159941,
+        "customer_snippet":"@hulu_support I don\u2019t really have time to call this is becoming a real inconvenience with poor customer service",
+        "brand_reply_snippet":"@139343 Apologies for that impression. We'll share your feedback. If you'd like us to further assist, feel free to give us a call.",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":1230827,
+        "conversation_id":1113396,
+        "customer_snippet":"@115940 do you have One Tree Hill? cause if so im going to sign up \ud83d\ude02",
+        "brand_reply_snippet":"@408685 Sorry to disappoint! Our rights to one Tree hill expired. \ud83d\ude29  We'll share the request for the show's return with our team. \u2705",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":1340539,
+        "conversation_id":1215111,
+        "customer_snippet":"@hulu_support TY!! Season 3 of original CSI. I tried uninstalling and reinstalling the app on my roku, but had to leave the house. Will check later.",
+        "brand_reply_snippet":"@432675 Sounds like a plan, Diane! You definitely shouldn't be seeing ads here\u2014so please send us a ping or a ring whenever you can.",
+        "is_deflection":false,
+        "reply_word_count":26
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":1799443,
+        "conversation_id":1646488,
+        "customer_snippet":"@hulu_support But it\u2019s super lame to do that since it only fast forwards in 10 sec increments &amp; it takes a long time 2 get 2 live when it\u2019s been on 1hr +",
+        "brand_reply_snippet":"@540683 We hear ya! We'll share your feedback! For now, press the center of the touchpad on your ATV remote and swipe right to FF faster.",
+        "is_deflection":false,
+        "reply_word_count":27
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":368148,
+        "conversation_id":321205,
+        "customer_snippet":"@hulu_support It wasn't an OT thing though, even the listing said there was about an hour left.  I didn't get to see the last hour plus OT!",
+        "brand_reply_snippet":"@203224 Gotcha. Sorry we misunderstood! We haven't had trending reports of this, but we'll be sure to record this occurrence!",
+        "is_deflection":false,
+        "reply_word_count":22
+      }
+    ],
+    "grounding_check":{
+      "claims":2,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":1
+  },
+  {
+    "message_id":561124,
+    "intent":"technical_support_and_errors",
+    "intent_confidence":0.9,
+    "intent_runner_up":"live_tv_streaming",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"Apologies for the delay! Still having trouble? Try: https:\/\/t.co\/HXpLyTU79x. Call\/chat: https:\/\/t.co\/6YdK7bvQN7 if no change!",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":2333530,
+        "conversation_id":2171587,
+        "customer_snippet":"@hulu_support Denver SNF has been unavailable for a long time. We signed up today to get the game, what\u2019s happening?",
+        "brand_reply_snippet":"@675343 Sorry, Tim! Some NBC affiliates are temporarily down, but we're working to resolve this. We appreciate your patience!",
+        "is_deflection":false,
+        "reply_word_count":20
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":1001531,
+        "conversation_id":901666,
+        "customer_snippet":"@hulu_support Nope tried it many times.Thats all you guys send to help and it doesnt work. Something is wrong with the Hulu app on roku &amp; needs 2 b fixed",
+        "brand_reply_snippet":"@357095 Got it. Sorry for the con't frustration here! Chat: https:\/\/t.co\/6YdK7bvQN7 so we can gather more info + further investigate.",
+        "is_deflection":false,
+        "reply_word_count":23
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":930969,
+        "conversation_id":835982,
+        "customer_snippet":"@hulu_support Anyway to lower the price for commercial free at all?  I\u2019ve been with you guys since 2010",
+        "brand_reply_snippet":"@340838 We can share the interest. To explore your options for the Limited Commercial plan, reach out: https:\/\/t.co\/6YdK7bvQN7.",
+        "is_deflection":false,
+        "reply_word_count":21
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":1067160,
+        "conversation_id":961492,
+        "customer_snippet":"Hey @hulu_support your crappy Hulu Live streaming is killing the game. https:\/\/t.co\/M6yFiLa1wz",
+        "brand_reply_snippet":"@234326 Apologies for the delay! Still having trouble? Try: https:\/\/t.co\/HXpLyTU79x. Call\/chat: https:\/\/t.co\/6YdK7bvQN7 if no change!",
+        "is_deflection":false,
+        "reply_word_count":22
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":2551639,
+        "conversation_id":2384110,
+        "customer_snippet":"@hulu_support  how do you get past episodes with tv programs?",
+        "brand_reply_snippet":"@724863 It all comes down to streaming rights...What show are you referring to? We'd be more than happy to provide you with more insight.",
+        "is_deflection":false,
+        "reply_word_count":26
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":458827,
+    "intent":"other",
+    "intent_confidence":0.9,
+    "intent_runner_up":"technical_support_and_errors",
+    "silver_intent":"other",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "unknown_intent",
+      "insufficient_evidence",
+      "conflicting_precedents",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 unknown_intent: message does not fall into any intent the taxonomy covers. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about what you need?",
+    "reply_type":"holding_ack",
+    "draft_reply":"Glad to hear it's working now! Reach back out if anything else comes up.",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":1158533,
+        "conversation_id":1046642,
+        "customer_snippet":"@hulu_support Been getting this on my @127972 for days now. What's the deal? https:\/\/t.co\/BkEt1PCEdv",
+        "brand_reply_snippet":"@164296 Oh no! Try: https:\/\/t.co\/DPycTgStSF. That should do the trick but if no change, reach out here: https:\/\/t.co\/6YdK7bvQN7.",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":938750,
+        "conversation_id":842853,
+        "customer_snippet":"@115940 I have been trying to watch a 23 min show for a hr now bc u keep freezing in between commercials..I get it! U want us to upgrade!!!",
+        "brand_reply_snippet":"@342532 Let's see if we can help with this! Which device is this occurring on? To start, try: https:\/\/t.co\/HXpLyTU79x. Any change after?",
+        "is_deflection":false,
+        "reply_word_count":26
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":1184625,
+        "conversation_id":1070939,
+        "customer_snippet":"So i can't run either @115940 UWP on my @57039. Neither the \"normal\" one or the VR one show in the store \ud83d\ude12",
+        "brand_reply_snippet":"@398577 Sorry! We do not currently support this device, but we'll share your interest. For more info on Hulu VR: https:\/\/t.co\/AjULuP4dqx.",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":1678320,
+        "conversation_id":1529673,
+        "customer_snippet":"@115940 why aren't you working on my PC, Xbox one, or PS4? \ud83d\ude29\ud83d\ude29",
+        "brand_reply_snippet":"@510465 That shouldn't be the case! What happens when you try to stream Hulu? Any error messages? Try: https:\/\/t.co\/HXpLyTU79x.",
+        "is_deflection":false,
+        "reply_word_count":23
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":332651,
+        "conversation_id":290864,
+        "customer_snippet":"do you guys offer a blogger program? @hulu_support",
+        "brand_reply_snippet":"@195217 Hi there! No blogger program at this time! We'd love to gather the suggestion on our Communities page: https:\/\/t.co\/n4qDfJdbFR.",
+        "is_deflection":false,
+        "reply_word_count":24
+      }
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":561153,
+    "intent":"technical_support_and_errors",
+    "intent_confidence":0.9,
+    "intent_runner_up":"account_and_billing_management",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"Sorry to hear that's what you've been running into. We have our team investigating a current issue and are working to resolve.",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":1707522,
+        "conversation_id":1556742,
+        "customer_snippet":"@hulu_support thank you, i got it taken care of!!",
+        "brand_reply_snippet":"@384694 We're glad to hear it, Hannah! If we can help with anything else in the future, please let us know!",
+        "is_deflection":false,
+        "reply_word_count":22
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":1523532,
+        "conversation_id":1384147,
+        "customer_snippet":"@115940 Just watched two ads then it said 1 of 4 THEN it started me at the very end of a show so I had to restart and watch 4 more ads! Thanks",
+        "brand_reply_snippet":"@473355 Sorry to hear that, Bud! If this happens again, mind letting us know the device you're using? Also try: https:\/\/t.co\/HXpLyTU79x.",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":2151381,
+        "conversation_id":1994174,
+        "customer_snippet":"@632236 @hulu_support @165414 Yup. If it\u2019s not live tv buffering it\u2019s an error message.",
+        "brand_reply_snippet":"@124368 Sorry to hear that's what you've been running into. We have our team investigating a current issue and are working to resolve.",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":376179,
+        "conversation_id":328471,
+        "customer_snippet":"Its been ok.  At6 min left in half. https:\/\/t.co\/mKbqjAUrqx",
+        "brand_reply_snippet":"@204914 Good to hear you're back to smooth playback. If anything else come up, feel free to tweet back at us again. We'll be here!",
+        "is_deflection":false,
+        "reply_word_count":27
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":1100150,
+        "conversation_id":992259,
+        "customer_snippet":"@hulu_support Any idea on ETA? It's been months... :-(",
+        "brand_reply_snippet":"@261725 Our tech team is currently investigating the issue so there's not an exact timeline for a resolution. Apologies for the trouble!",
+        "is_deflection":false,
+        "reply_word_count":23
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":597214,
+    "intent":"other",
+    "intent_confidence":0.8,
+    "intent_runner_up":"live_tv_streaming",
+    "silver_intent":"technical_support_and_errors",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "unknown_intent",
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "conflicting_precedents",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 unknown_intent: message does not fall into any intent the taxonomy covers. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about what you need?",
+    "reply_type":"holding_ack",
+    "draft_reply":"",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":1021253,
+        "conversation_id":920052,
+        "customer_snippet":"Why isn\u2019t Charlie Brown &amp; The Great Pumpkin on @116602 OR @115940 ?? \ud83c\udf83\n\nBLASPHEMY.  \ud83d\ude24",
+        "brand_reply_snippet":"@361677 Hey! We don't have the rights to Charlie Brown &amp; The Great Pumpkin, but we'll share your request with our content team. \ud83c\udf42",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":2320319,
+        "conversation_id":2158566,
+        "customer_snippet":"@hulu_support @115940: If possible, could you add the TV show The Sentinel? \ud83d\ude0e https:\/\/t.co\/w99XbhcZtt",
+        "brand_reply_snippet":"@339197 We can definitely put in a request for The Sentinel on your behalf! We're always working to add more of what you love. \ud83d\udc9a",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":2160393,
+        "conversation_id":2003165,
+        "customer_snippet":"@hulu_support getting an error message when i try to cast from my devices(ios and android)",
+        "brand_reply_snippet":"@634494 Sorry, Steven! This was a known issue, but restarting your device should get you back to normal. Thanks for bearing with us!",
+        "is_deflection":false,
+        "reply_word_count":23
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":1096375,
+        "conversation_id":988634,
+        "customer_snippet":"@hulu_support no error. when i search for x files through the hulu ps4 app it simply doesnt show up. but works on computer with same account :\/",
+        "brand_reply_snippet":"@378721 How odd! We're seeing it on our PS4. Try uninstalling\/reinstalling our app. If no change: https:\/\/t.co\/6YdK7bvQN7",
+        "is_deflection":false,
+        "reply_word_count":22
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":2098778,
+        "conversation_id":1943848,
+        "customer_snippet":"@hulu_support it\u2019s okay! i was wondering if you guys can please send me the photo of naruto and sasuke that is used for the anime section? i was told that you guys have access to those photos and could possibly send it to me \ud83d\ude05",
+        "brand_reply_snippet":"@619952 Sorry for any misinformation. This is outside our scope of support, but we'll be sure to share your interest w\/ the right team",
+        "is_deflection":false,
+        "reply_word_count":25
+      }
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":true
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2901719,
+    "intent":"technical_support_and_errors",
+    "intent_confidence":0.6,
+    "intent_runner_up":"other",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "low_confidence",
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 low_confidence: intent confidence 0.60 is below the 0.7 threshold. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"Uh oh! Are you running into any trouble? We're here to help or pass along any feedback you may have for review. Let us know!",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":344563,
+        "conversation_id":300767,
+        "customer_snippet":"The @115940 app on my bedroom TV has always sucked, and using it right now reminded me why I never watch Hulu in here.",
+        "brand_reply_snippet":"@197955 Uh oh! Are you running into any trouble? We're here to help or pass along any feedback you may have for review. Let us know!",
+        "is_deflection":false,
+        "reply_word_count":27
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":2151381,
+        "conversation_id":1994174,
+        "customer_snippet":"@632236 @hulu_support @165414 Yup. If it\u2019s not live tv buffering it\u2019s an error message.",
+        "brand_reply_snippet":"@124368 Sorry to hear that's what you've been running into. We have our team investigating a current issue and are working to resolve.",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":652294,
+        "conversation_id":579989,
+        "customer_snippet":"@hulu_support Yes, everything is correct. Only thing wrong is the Fox channel is listed as 59 News. 59 News is just what they call their local news.",
+        "brand_reply_snippet":"@275113 We appreciate this update, John! Sorry for using the wrong name earlier. Our technicians will be looking into this issue for you.",
+        "is_deflection":false,
+        "reply_word_count":23
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":13424,
+        "conversation_id":9665,
+        "customer_snippet":"@hulu_support not sure what is happening but ur live stream service has been horrible the past week in 07080. reboot. reinstall. reset.",
+        "brand_reply_snippet":"@118786 We had a few issues earlier this week but nothing to report currently. What device is it? Try out these: https:\/\/t.co\/HXpLyTU79x.",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":2098787,
+        "conversation_id":1943858,
+        "customer_snippet":"@hulu_support Can\u2019t agree more that it\u2019s different, however since I have experience with other streaming services I can still easily see how subpar your service is. And that screen is a fallback for when your other content doesn\u2019t load or play, which is why I saw it. It failed ov",
+        "brand_reply_snippet":"@619954 We play ad breaks as they stream live, but we'll definitely share your feedback. As for the playback issue, what device was this on",
+        "is_deflection":false,
+        "reply_word_count":26
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2872803,
+    "intent":"other",
+    "intent_confidence":0.8,
+    "intent_runner_up":"technical_support_and_errors",
+    "silver_intent":"other",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "unknown_intent",
+      "insufficient_evidence",
+      "conflicting_precedents",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 unknown_intent: message does not fall into any intent the taxonomy covers. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about what you need?",
+    "reply_type":"holding_ack",
+    "draft_reply":"",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":1990124,
+        "conversation_id":1834367,
+        "customer_snippet":"@hulu_support ironic how badly #WorldSeriesGame4 buffers &amp; Then y'all ads comes on. HDTV antenna to the rescue. Yes I've reset my device",
+        "brand_reply_snippet":"@214590 It sounds like you're running into an issue we're currently investigating. For now, try utilizing: https:\/\/t.co\/qeNe09yc0o.",
+        "is_deflection":false,
+        "reply_word_count":22
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":1179247,
+        "conversation_id":1066028,
+        "customer_snippet":"Why does the ads have to be so long on Hulu @hulu_support",
+        "brand_reply_snippet":"@397349 Sorry for any frustrations! Ad load varies but we offer a commercial-free plan if you're interested https:\/\/t.co\/ft9S2GUD7v",
+        "is_deflection":false,
+        "reply_word_count":23
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":1715964,
+        "conversation_id":1564982,
+        "customer_snippet":"@hulu_support And there is no error code to speak of from the Hulu crash each time, confirmed with 100% certainty.",
+        "brand_reply_snippet":"@519659 Apologies. Upon further review, this does appear to be part of a known we're looking into. We've shared the details... 1\/2 @519659 ...provided for further investigation. For now, we would recommend using a different device to stream, if possible. 2\/2",
+        "is_deflection":false,
+        "reply_word_count":45
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":1372600,
+        "conversation_id":1243425,
+        "customer_snippet":"The only app on my Xbox that acts retarded and makes me open and close a hundred times before it works is @115940 \n\ncmon Hulu",
+        "brand_reply_snippet":"@439444 Oh no! Are you using Xbox One or 360? What specific trouble are you coming across? Any errors? Try: https:\/\/t.co\/HXpLyTU79x.",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":850297,
+        "conversation_id":761339,
+        "customer_snippet":"@hulu_support Thank you",
+        "brand_reply_snippet":"@254545 Sure thing! We're just a tweet away if you need anything else. #HappyStreaming",
+        "is_deflection":false,
+        "reply_word_count":15
+      }
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":true
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":1
+  },
+  {
+    "message_id":2894845,
+    "intent":"other",
+    "intent_confidence":0.8,
+    "intent_runner_up":"app_interface_and_ux",
+    "silver_intent":"other",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "unknown_intent",
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 unknown_intent: message does not fall into any intent the taxonomy covers. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about what you need?",
+    "reply_type":"holding_ack",
+    "draft_reply":"Uh oh! Are you running into any trouble? We're here to help or pass along any feedback you may have for review. Let us know!",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":344563,
+        "conversation_id":300767,
+        "customer_snippet":"The @115940 app on my bedroom TV has always sucked, and using it right now reminded me why I never watch Hulu in here.",
+        "brand_reply_snippet":"@197955 Uh oh! Are you running into any trouble? We're here to help or pass along any feedback you may have for review. Let us know!",
+        "is_deflection":false,
+        "reply_word_count":27
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":1622856,
+        "conversation_id":1477296,
+        "customer_snippet":"Let me show you how excited I am to cut the cord. @115940 left @115946 right. \n\nSigh. \ud83d\ude20 https:\/\/t.co\/uzaRem22R2",
+        "brand_reply_snippet":"@497174 Uh oh! Still having trouble? If so, try: https:\/\/t.co\/HXpLyTU79x. If no dice, @ us your device and what content seems affected.",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":298700,
+        "conversation_id":259842,
+        "customer_snippet":"@hulu_support @187184 I second this! We love Hulu live but need Hallmark and NFL network.  Can't miss #CountdownToChristmas!",
+        "brand_reply_snippet":"@187186 Thanks for tweeting us, Shannon! We'll be sure to forward along your interest as well. If we can help further let us know! \ud83d\udc9a",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":778330,
+        "conversation_id":695456,
+        "customer_snippet":"@hulu_support Why aren\u2019t they available, I don\u2019t think they\u2019ve expired yet. PLZ fix it. Thank you. #sisterAct #sisterAct2 #HuluHelp https:\/\/t.co\/47gexrvAax",
+        "brand_reply_snippet":"@177634 Hi! Sister Act 1 and 2 are available with the HBO add-on: https:\/\/t.co\/IhRrbIhll3. Have you added HBO to your subscription?",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":414503,
+        "conversation_id":362357,
+        "customer_snippet":"@hulu_support Both Dodgers\/Cubs and Warriors\/Rockets still down. This is literally the only reason I have the Live TV service. Come on guys... https:\/\/t.co\/wxfRMeRGoo",
+        "brand_reply_snippet":"@251323 Oh no! Restarting didn't help? If you're still running into trouble, please reach out here: https:\/\/t.co\/6YdK7bvQN7.",
+        "is_deflection":false,
+        "reply_word_count":22
+      }
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":457266,
+    "intent":"live_tv_streaming",
+    "intent_confidence":0.8,
+    "intent_runner_up":"technical_support_and_errors",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"If you continue to run into trouble, please reach out here for 1:1 help: https:\/\/t.co\/6YdK7bvQN7",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":1531979,
+        "conversation_id":1391360,
+        "customer_snippet":".@hulu_support Is there an easy way to \u2018skip to live\u2019 on Apple TV?",
+        "brand_reply_snippet":"@475213 Hi, Aaron! There isn't a \"Go to Live\" button. Please try pressing the touchpad on your remote and swiping right to FF faster.",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":1400432,
+        "conversation_id":1269980,
+        "customer_snippet":"@hulu_support when a show indicated it\u2019s expiring how do I know how many days I have?",
+        "brand_reply_snippet":"@445618 Hi! An ep will show expiring tag if it is set to expire within 2 weeks. You can also hover over ep\/show to see exact date. @445618 An ep will show the expiring tag if it is set to expire w\/in 2 weeks. You can also hover over ep on our website to see exact date.",
+        "is_deflection":false,
+        "reply_word_count":59
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":1861218,
+        "conversation_id":1707058,
+        "customer_snippet":"@hulu_support .your help sight won't load online.shows are missing and my samsung smart tv just keeps cycling throught that hulu load screen",
+        "brand_reply_snippet":"@556303 Yikes! Try: https:\/\/t.co\/6xNmexfdiX, https:\/\/t.co\/Mt3KPvSvqy. Call\/chat if not resolved by those (https:\/\/t.co\/6YdK7bvQN7). \ud83d\udc9c",
+        "is_deflection":false,
+        "reply_word_count":22
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":243503,
+        "conversation_id":208517,
+        "customer_snippet":"@hulu_support It finally gave me a new activation code, after a couple hours retrying.",
+        "brand_reply_snippet":"@173841 Thanks for the update, Roger! If you run into any further trouble, let us know. We're here to help.",
+        "is_deflection":false,
+        "reply_word_count":21
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":1416303,
+        "conversation_id":1284799,
+        "customer_snippet":"@hulu_support I'm on our roku and for some reason today is the only day we can't find the game on Hulu live. Same location and house :(",
+        "brand_reply_snippet":"@449160 If you search \"MLB Baseball\" are you able to see the game? If not, please reach out here for 1:1 help: https:\/\/t.co\/6YdK7bvQN7",
+        "is_deflection":false,
+        "reply_word_count":27
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":490963,
+    "intent":"technical_support_and_errors",
+    "intent_confidence":0.8,
+    "intent_runner_up":"app_interface_and_ux",
+    "silver_intent":"technical_support_and_errors",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 5 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"Yikes! \ud83d\ude2d Let's try: https:\/\/t.co\/HXpLyTCvKX, https:\/\/t.co\/HiTFseTr3a. Call\/chat if that doesn't fix it (https:\/\/t.co\/6YdK7bNrEF).",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":1479857,
+        "conversation_id":1343893,
+        "customer_snippet":"So @115940 when will you stream @18283 season 3??? Because that season 2 cliffhanger got me like \ud83d\ude35 https:\/\/t.co\/gtYNTm06ns",
+        "brand_reply_snippet":"@463630 Hey there! No news to share on adding S3 right now, but keep an eye on this pg for updates: https:\/\/t.co\/r9MCqHxrfq. \ud83d\udc4d",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":188029,
+        "conversation_id":156566,
+        "customer_snippet":"Hi @hulu_support tried to watch my show on my android and I got a error code BYA-403-0009. Tried manage devices but the link is mislead. Thx",
+        "brand_reply_snippet":"@160127 Oh no! You can review and remove devices at: https:\/\/t.co\/stnCpUMwnn. For streaming issues, try these: https:\/\/t.co\/bKrKTfspC1.",
+        "is_deflection":false,
+        "reply_word_count":23
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":958725,
+        "conversation_id":861630,
+        "customer_snippet":"@hulu_support I don't understand why I have to press 17 buttons to get to an episode of @212203 now. Why did you make @115940 UI 10x worse?",
+        "brand_reply_snippet":"@180654 Sorry for any trouble, Steve! Try adding South Park to My Stuff. Then you can go straight to the newest unwatched episode!",
+        "is_deflection":false,
+        "reply_word_count":23
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":848777,
+        "conversation_id":759934,
+        "customer_snippet":"@hulu_support Maintenance should be over? Still not letting me watch on my phone",
+        "brand_reply_snippet":"@332859 Hey Cat! Are you using iOS or Android? Try checking for any app updates\/uninstalling and reinstalling the app. Any better?",
+        "is_deflection":false,
+        "reply_word_count":22
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":1099092,
+        "conversation_id":991247,
+        "customer_snippet":"@Hulu_support  wtf??? https:\/\/t.co\/cxwXEYHMo9",
+        "brand_reply_snippet":"@379362 Yikes! \ud83d\ude2d Let's try: https:\/\/t.co\/HXpLyTCvKX, https:\/\/t.co\/HiTFseTr3a. Call\/chat if that doesn't fix it (https:\/\/t.co\/6YdK7bNrEF).",
+        "is_deflection":false,
+        "reply_word_count":25
+      }
+    ],
+    "grounding_check":{
+      "claims":2,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":1
+  },
+  {
+    "message_id":2909735,
+    "intent":"content_availability",
+    "intent_confidence":0.9,
+    "intent_runner_up":"technical_support_and_errors",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"Sorry for any frustrations! We want to help!",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":196165,
+        "conversation_id":163877,
+        "customer_snippet":"@hulu_support when will you be airing \u201cghosted\u201d?  Episode 1 has already been showed 3 weeks ago &amp; already on iTunes but not on Hulu yet \ud83e\udd14",
+        "brand_reply_snippet":"@162157 Hi! The pilot of Ghosted aired on 10\/1 and became available on Hulu the next day. We'll offer upcoming eps the day after air.",
+        "is_deflection":false,
+        "reply_word_count":27
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":2196321,
+        "conversation_id":2037761,
+        "customer_snippet":"@hulu_support Why can't I watch @115940 on my TV? What's up? I've tried restarting everything so many times but nothing worlds. It just keeps trying to link up.",
+        "brand_reply_snippet":"@642580 Apologies! If using a Samsung, we're looking into this. Many viewers have said that closing Hulu and restarting the TV helps.",
+        "is_deflection":false,
+        "reply_word_count":23
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":2129781,
+        "conversation_id":1973401,
+        "customer_snippet":"@115940 where are the latest episodes of Empire Season 4? I only see Season 4, Episode 4 ...",
+        "brand_reply_snippet":"@626916 Hi Angie! Empire has been on a brief hiatus. S4 Ep5 will premiere on TV tonight, and added to our on-demand library tomorrow!",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":770732,
+        "conversation_id":688827,
+        "customer_snippet":"@hulu_support i keep getting a message saying to disable adblock to continue watching but i've never downloaded adblock? what do it do",
+        "brand_reply_snippet":"@304052 Apologies for the trouble! This has been resolved: https:\/\/t.co\/FqPxXIM9CS. Try: https:\/\/t.co\/FXji3bHfSq if error is still present.",
+        "is_deflection":false,
+        "reply_word_count":23
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":2679951,
+        "conversation_id":2510153,
+        "customer_snippet":"@115940 ahhhh you guys suck!! Ur menu is confusing and it doesn\u2019t work ahhhh",
+        "brand_reply_snippet":"@214443 Sorry for any frustrations! To get familiar w\/ the new look: https:\/\/t.co\/reT8R7er2R. What's not working? We want to help!",
+        "is_deflection":false,
+        "reply_word_count":24
+      }
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2890153,
+    "intent":"watchlist_and_playback_tracking",
+    "intent_confidence":0.9,
+    "intent_runner_up":"technical_support_and_errors",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"Sorry for any inconvenience! We definitely want to get the stream up and running smoothly ASAP. We appreciate your patience.",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":884325,
+        "conversation_id":792905,
+        "customer_snippet":"@hulu_support @330002 That answers that question.   Thank you",
+        "brand_reply_snippet":"@196367 Happy to clear up confusion, don't hesitate to tweet us again in the future. We apologize for any misinformation previously shared.",
+        "is_deflection":false,
+        "reply_word_count":23
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":1095498,
+        "conversation_id":987815,
+        "customer_snippet":"@115940 @hulu_support I HATE THE NEW INTERFACE. THE OLD ONE WAS WORKING JUST FINE.  HOW CAN I GET THE OLD VERSION BACK!",
+        "brand_reply_snippet":"@378516 Sorry to hear you aren't a fan! We're continuing to make updates. Anything in particular you were having trouble with?",
+        "is_deflection":false,
+        "reply_word_count":23
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":1373930,
+        "conversation_id":1244696,
+        "customer_snippet":"@hulu_support Gotcha. Happy you made Charter, the crappiest cable company ever seem like a better option. Can't believe I'm sad I cut the cord",
+        "brand_reply_snippet":"@414140 Sorry for any inconvenience, Gary! We definitely want to get the stream up and running smoothly ASAP. We appreciate your patience.",
+        "is_deflection":false,
+        "reply_word_count":22
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":312904,
+        "conversation_id":272813,
+        "customer_snippet":"@hulu_support 30-45 minutes you out your mind.",
+        "brand_reply_snippet":"@190728 Sorry to hear of the wait times. We'd still love to help! Let us know if our chat support is a better option at this time. \ud83d\ude4c\ud83c\udffd",
+        "is_deflection":false,
+        "reply_word_count":28
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":1600559,
+        "conversation_id":1455714,
+        "customer_snippet":"@hulu_support why is blue bloods on returning fall tv but there is no new season when season 8 started in september?",
+        "brand_reply_snippet":"@491432 We have the rights to stream S8 of Blue Bloods on Hulu with Live TV, but not our on-demand plans. Apologies for any trouble!",
+        "is_deflection":false,
+        "reply_word_count":26
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2898152,
+    "intent":"live_tv_streaming",
+    "intent_confidence":0.9,
+    "intent_runner_up":"content_availability",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "conflicting_precedents",
+      "multi_intent"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"Sorry for any frustrations! We'll share your feedback!",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":2106675,
+        "conversation_id":1951599,
+        "customer_snippet":"@115940 why don't you show the previews to next week's episodes? #iwantpreviews",
+        "brand_reply_snippet":"@621736 Hi, Amanda! Preview availability will depend on the series. Which show are you wondering about?",
+        "is_deflection":false,
+        "reply_word_count":16
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":1077804,
+        "conversation_id":971381,
+        "customer_snippet":"hey @115940 I have you guys whitelisted, and i also pay for the ad-free version of hulu.  wtf???? https:\/\/t.co\/F6LfSlpycL",
+        "brand_reply_snippet":"@374264 Apologies, Derek! Please connect with us via live chat: https:\/\/t.co\/6YdK7bvQN7 so we can take a closer look into this for you.",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":923631,
+        "conversation_id":829194,
+        "customer_snippet":".@hulu_support Will this subscription price drop apply to current subscribers? https:\/\/t.co\/h6jmP02Xp1",
+        "brand_reply_snippet":"@195135 Hey there! The $5.99 promo is for new and eligible returning subscribers only. Sorry for any disappointment!",
+        "is_deflection":false,
+        "reply_word_count":19
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":1058603,
+        "conversation_id":953959,
+        "customer_snippet":"@115940 guys I have a minute and 21 seconds left of my show why are you making me watch 4 ads right now????",
+        "brand_reply_snippet":"@369932 Sorry for any frustrations! Ad breaks are placed in all the same spots as when an ep first aired. We'll share your feedback!",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":1064131,
+        "conversation_id":959018,
+        "customer_snippet":"@hulu_support i'm being billed but cannot log onto Hulu on TV or computer",
+        "brand_reply_snippet":"@371234 Sorry to hear about this! Chat with us here: https:\/\/t.co\/6YdK7bvQN7 for immediate one on one support.",
+        "is_deflection":false,
+        "reply_word_count":20
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2914747,
+    "intent":"app_interface_and_ux",
+    "intent_confidence":0.8,
+    "intent_runner_up":"content_availability",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "conflicting_precedents",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"Sorry to hear about this! If you still need a hand please run a quick power-cycle (unplug modem+device) & try again.",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":1157980,
+        "conversation_id":1046157,
+        "customer_snippet":"@hulu_support i signed up for the limited commercial free trial but it wont let me bypass the my account page...",
+        "brand_reply_snippet":"@392402 Apologies for the trouble! Did you get an error message? If still unable to proceed, please contact: https:\/\/t.co\/6YdK7bvQN7. \u2705",
+        "is_deflection":false,
+        "reply_word_count":22
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":40963,
+        "conversation_id":5016,
+        "customer_snippet":"@hulu_support Our sincerest apologies @115940 and @hulu_support, we will be canceling our subscription. For a workaround, try providing service that works!!",
+        "brand_reply_snippet":"@569191 Hey! We just replied to: https:\/\/t.co\/J814M6NWjX, but please reach out at: https:\/\/t.co\/6YdK7bvQN7 to discuss any options.",
+        "is_deflection":false,
+        "reply_word_count":23
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":1757274,
+        "conversation_id":1603894,
+        "customer_snippet":"@hulu_support The Xbox live account. My wife and i have different profiles in the same console. But when I sign in to the @115940 app she gets signed out",
+        "brand_reply_snippet":"@379153 With our Live TV Add-on, you should be able to watch on 2 screens at a time. Is this on Xbox 360 or One? Any errors pop up?",
+        "is_deflection":false,
+        "reply_word_count":30
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":260615,
+        "conversation_id":224588,
+        "customer_snippet":"@hulu_support where can I find all genres of movies?",
+        "brand_reply_snippet":"@178040 Go to Browse&gt;Movies and check out the genres\/categories listed there, or try Browse&gt;Genres&gt;(Insert Genre)&gt;Popular Movies. \ud83c\udfa5\ud83c\udf7f",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":1701772,
+        "conversation_id":1551276,
+        "customer_snippet":"Why is @115940 down right now? I need to get caught up on tv. \ud83d\ude41",
+        "brand_reply_snippet":"@515970 Sorry to hear about this, Jenna! If you still need a hand please run a quick power-cycle (unplug modem+device) &amp; try again.",
+        "is_deflection":false,
+        "reply_word_count":25
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":569000,
+    "intent":"live_tv_streaming",
+    "intent_confidence":0.95,
+    "intent_runner_up":"technical_support_and_errors",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"Apologies! Our team is investigating issues with live playback and working on a fix\u2014we're so sorry for any frustration.",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":1229419,
+        "conversation_id":1112047,
+        "customer_snippet":"I\u2019m begging for @115940 to add The Simple Life please please",
+        "brand_reply_snippet":"@408358 Thanks for the suggestion! We'll let our content team know that you'd love to stream The Simple Life on Hulu in the future. \u2705",
+        "is_deflection":false,
+        "reply_word_count":26
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":1700695,
+        "conversation_id":1550246,
+        "customer_snippet":"@hulu_support Do you guys really respond to customers on twitter?",
+        "brand_reply_snippet":"@515699 Sure do! We can't make any promises but we'll share your interest in Malcom in the Middle! Anything else we can help with?",
+        "is_deflection":false,
+        "reply_word_count":26
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":365802,
+        "conversation_id":319150,
+        "customer_snippet":"if they dont get rick and morty im dropping this shit im not paying more for dumbass shit @116602 .... @115940 you still doing commercials? https:\/\/t.co\/lmRzWIyopK",
+        "brand_reply_snippet":"@202664 Hi Alex! We offer S3 on Hulu with Live TV! Due to rights, our base plans typically have access after it fully airs on TV. \u2705",
+        "is_deflection":false,
+        "reply_word_count":26
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":2436634,
+        "conversation_id":2271871,
+        "customer_snippet":"@hulu_support I\u2019m just about done with this cutting the cord experience. I have way fewer storms than I have have Hulu live issues.",
+        "brand_reply_snippet":"@699031 Apologies! Our team is investigating issues with live playback and working on a fix\u2014we're so sorry for any frustration.",
+        "is_deflection":false,
+        "reply_word_count":22
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":1230810,
+        "conversation_id":1113375,
+        "customer_snippet":"The new @115940 layout is so god damn confusing why would you do this to us",
+        "brand_reply_snippet":"@408678 Apologies! To get more familiar with the new changes, take a look at: https:\/\/t.co\/zS2PPOu3qc. We hope this information helps!",
+        "is_deflection":false,
+        "reply_word_count":23
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":564389,
+    "intent":"live_tv_streaming",
+    "intent_confidence":0.95,
+    "intent_runner_up":"technical_support_and_errors",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"Sorry for the continued trouble! To confirm, did you have a chance to reach out to our team by phone\/chat?",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":1524653,
+        "conversation_id":1385197,
+        "customer_snippet":"@hulu_support I continue to have problems w\/ live tv. Stops, stutters at end of every live show. Loses 30 sec of last show and upcoming show",
+        "brand_reply_snippet":"@461769 Sorry to hear about the continued trouble! To confirm, did you have a chance to reach out to our team by phone\/chat?",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":1483276,
+        "conversation_id":1347131,
+        "customer_snippet":".@hulu_support your TV live stream is currently beefin' all over the bed. Not even functioning.",
+        "brand_reply_snippet":"@464438 Sorry, Irvin! We're looking into this right now and we appreciate you bearing with us!",
+        "is_deflection":false,
+        "reply_word_count":17
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":1672978,
+        "conversation_id":1524619,
+        "customer_snippet":"@hulu_support Why haven\u2019t you uploaded the tv shows Empire and Star?",
+        "brand_reply_snippet":"@509127 Sorry for any confusion! Empire and Star were on a brief hiatus due to the World Series, but they should be back this week. \ud83d\udc4d",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":894691,
+        "conversation_id":802485,
+        "customer_snippet":"Dear @115940 - why do you keep deleting my stuff? Every other time I log in it\u2019s gone. :\/",
+        "brand_reply_snippet":"@332436 That shouldn't be the case! Is this happening on your Roku? If so, any change after working through: https:\/\/t.co\/wAoEicy9CF?",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":975311,
+        "conversation_id":877250,
+        "customer_snippet":"@hulu_support when will live tv be available on Samsung tv? Was about to sign up but may pass now....",
+        "brand_reply_snippet":"@351293 Thanks for your interest! No ETA, but it's in the works. Keep an eye on: https:\/\/t.co\/hSYmUd2sv7 and https:\/\/t.co\/4P3IA9qbP9.",
+        "is_deflection":false,
+        "reply_word_count":26
+      }
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2903394,
+    "intent":"app_interface_and_ux",
+    "intent_confidence":0.9,
+    "intent_runner_up":"other",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We hear you! Rest assured we've shared your feedback.",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":991408,
+        "conversation_id":892468,
+        "customer_snippet":"@115940 your new smart TV interface is awful, poorly designed and not user friendly. Please change it back or fix. Sincerely, a fan of yours.",
+        "brand_reply_snippet":"@354851 Apologies, Shaun! Rest assured\u2014updates are on their way. Be sure to bookmark: https:\/\/t.co\/4P3IA9qbP9 for new announcements.",
+        "is_deflection":false,
+        "reply_word_count":21
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":1229400,
+        "conversation_id":1112029,
+        "customer_snippet":"Here\u2019s the deal, @115940:\n\nYou keep giving me old school, pre-CGI, late-1970s Hulk, and I promise not to get angry.\n\nYou wouldn\u2019t like me when I\u2019m angry. https:\/\/t.co\/srDUomyAvy",
+        "brand_reply_snippet":"@408352 But the Hulk's ALWAYS angry. \ud83d\ude21 Kidding! \ud83d\ude06 We'd love to share any requests. Do you want Eric Bana Hulk or Mark Ruffalo Hulk?",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":952090,
+        "conversation_id":855469,
+        "customer_snippet":"@hulu_support No worries, it just scares me.  Haha",
+        "brand_reply_snippet":"@345874 We hear you, Jason! We're working on using on inner voice when launching our app. Rest assured we've shared your feedback. \ud83d\udc4d",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":7659,
+        "conversation_id":5016,
+        "customer_snippet":"@hulu_support 45 minute wait for customer service.  Will you compensate subscribers for  allowing us to pay for the right to have the World Series ruined?",
+        "brand_reply_snippet":"@712978 Sorry, Christian! We ran into an issue with Live TV last, but it\u2019s now fixed: https:\/\/t.co\/DcGYAgPstX. Thanks for your patience!",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":2333656,
+        "conversation_id":2171715,
+        "customer_snippet":"@115940 the live feed is a bummer \ud83d\ude10",
+        "brand_reply_snippet":"@675374 Let's see if we can help! What specific trouble are you coming across and on which device? Any specific network?",
+        "is_deflection":false,
+        "reply_word_count":22
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":1
+  },
+  {
+    "message_id":460357,
+    "intent":"technical_support_and_errors",
+    "intent_confidence":0.9,
+    "intent_runner_up":"account_and_billing_management",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "account_action_required",
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 account_action_required: request needs a change to the customer's account, which this system must never perform. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll need to verify your account before making any changes.",
+    "reply_type":"holding_ack",
+    "draft_reply":"Sorry for the trouble! If you haven't yet, please reboot and retest.",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":1748497,
+        "conversation_id":1595437,
+        "customer_snippet":"@115940 can you put 1st season of Great News back on? We didn\u2019t finish it yet. \ud83d\ude01",
+        "brand_reply_snippet":"@527052 Hi! We only have the rights to stream eps in the current season of this show, but we'll share your interest in seeing S1 return!",
+        "is_deflection":false,
+        "reply_word_count":27
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":2569482,
+        "conversation_id":2401260,
+        "customer_snippet":"@hulu_support Thanks all is working well again",
+        "brand_reply_snippet":"@214921 Awesome, glad to hear it! We appreciate your patience while we worked to resolve this. \ud83d\udc9a",
+        "is_deflection":false,
+        "reply_word_count":16
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":1971692,
+        "conversation_id":1815949,
+        "customer_snippet":"@hulu_support Hey #NLCS #dodgers feed is busted. When will that be fixed?",
+        "brand_reply_snippet":"@584028 Sorry about that, Steve! It sounds like you ran into: https:\/\/t.co\/az3EROTani. If you haven't yet, please reboot and retest.",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":819829,
+        "conversation_id":733534,
+        "customer_snippet":"I will just send a message over chat on your site. https:\/\/t.co\/Mab3ySaVKd",
+        "brand_reply_snippet":"@314675 Sounds good! If there is anything else we can assist you with via Twitter, please let us know.",
+        "is_deflection":false,
+        "reply_word_count":19
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":817926,
+        "conversation_id":731749,
+        "customer_snippet":"@115940 @hulu_support did y\u2019all take down @28597",
+        "brand_reply_snippet":"@314811 Hi, Nicole! Sorry for the delay. We're still marching here! Let us know if you're able to view: https:\/\/t.co\/g1c4Lb03wk here.",
+        "is_deflection":false,
+        "reply_word_count":26
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":447712,
+    "intent":"app_interface_and_ux",
+    "intent_confidence":0.6,
+    "intent_runner_up":"watchlist_and_playback_tracking",
+    "silver_intent":"content_availability",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "low_confidence",
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "conflicting_precedents",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 low_confidence: intent confidence 0.60 is below the 0.7 threshold. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":2333402,
+        "conversation_id":2171468,
+        "customer_snippet":"@115940 Seems you have more difficulties than you do service. Sure would love to watch the game .",
+        "brand_reply_snippet":"@675324 Sorry! Certain NBC affiliates are down temporarily. Please use the NBC Sports App for tonight: https:\/\/t.co\/qeNe09yc0o.",
+        "is_deflection":false,
+        "reply_word_count":20
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":267936,
+        "conversation_id":231381,
+        "customer_snippet":"If @115940 just told you that the device you used EARLIER TODAY was no longer compatible, would you continue your subscription? @hulu_support",
+        "brand_reply_snippet":"@179893 Sorry! In order to provide the best experience on Hulu we require an updated version that some devices aren't able to support.",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":243504,
+        "conversation_id":208517,
+        "customer_snippet":"Can't access #Hulu on #Roku, just Login screen. https:\/\/t.co\/YdHvojR0xc says 500 Internal Server Error\n@hulu_support \n@115940 Paid subscriber,",
+        "brand_reply_snippet":"@173841 Sorry for the trouble, Roger! We're looking into this on our end. Please reach out to our team here: https:\/\/t.co\/6YdK7bvQN7",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":313977,
+        "conversation_id":273861,
+        "customer_snippet":"@190969 @hulu_support Seeing the same thing on a FireTV gen1 box. Watch an episode and it works fine. Go to watch the next episode and Hulu green screens with aud",
+        "brand_reply_snippet":"@190967 Hey Ben! We're investigating this behavior\u2014apologies for any frustration this has caused! For now, try switching out the HDMI port.",
+        "is_deflection":false,
+        "reply_word_count":23
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":1112944,
+        "conversation_id":1004395,
+        "customer_snippet":"@hulu_support Double checked my internet speed with Vudu.  Appears fine. https:\/\/t.co\/qY3PJfOcbx",
+        "brand_reply_snippet":"@382665 Thanks for the screenshot! We'd like to take a look from our end. Contact: https:\/\/t.co\/6YdK7bvQN7. We'll get this sorted out.",
+        "is_deflection":false,
+        "reply_word_count":26
+      }
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":true
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2914754,
+    "intent":"app_interface_and_ux",
+    "intent_confidence":0.9,
+    "intent_runner_up":"technical_support_and_errors",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We'll share your feedback.",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":409059,
+        "conversation_id":357455,
+        "customer_snippet":"@hulu_support I want to cancel after my first week ! How do I do this",
+        "brand_reply_snippet":"@212537 Hi! You can cancel via your account page here: https:\/\/t.co\/BLlbZHUTHB or reach out to us by phone\/chat: https:\/\/t.co\/6YdK7bvQN7.",
+        "is_deflection":false,
+        "reply_word_count":26
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":2098918,
+        "conversation_id":1943989,
+        "customer_snippet":"@hulu_support NBC Sports - Apple TV 4th Gen",
+        "brand_reply_snippet":"@465119 Thanks! We're investigating. If troubleshooting (https:\/\/t.co\/HQL1KwGgWo) doesn't resolve it, you can use: https:\/\/t.co\/qeNe09yc0o",
+        "is_deflection":false,
+        "reply_word_count":22
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":898302,
+        "conversation_id":805868,
+        "customer_snippet":"@hulu_support Yes I'm fast forwarding it but still 2 pitches behind.",
+        "brand_reply_snippet":"@333324 Apologies for the trouble! If this happens again, also try these steps: https:\/\/t.co\/TR6ei0cnf1. We'll share your feedback.",
+        "is_deflection":false,
+        "reply_word_count":22
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":1341318,
+        "conversation_id":1215879,
+        "customer_snippet":"Yes I\u2019m using WiFi https:\/\/t.co\/MZSCcIdwy2",
+        "brand_reply_snippet":"@418633 Thank you! Can you describe the issue a bit? Any errors? Does it affect all shows? Give these a try: https:\/\/t.co\/bBT0vtLmKt.",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":1425904,
+        "conversation_id":1293655,
+        "customer_snippet":"@hulu_support Thanks! I just called in and got it sorted out",
+        "brand_reply_snippet":"@451265 That's great news! If you have any other questions or concerns, feel free to reach back out. We'll only be a tweet away!",
+        "is_deflection":false,
+        "reply_word_count":26
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":542659,
+    "intent":"commercials_and_ads",
+    "intent_confidence":0.9,
+    "intent_runner_up":"account_and_billing_management",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "conflicting_precedents",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We'd be happy to forward your request for the show to come to Hulu soon.",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":1606636,
+        "conversation_id":1462202,
+        "customer_snippet":"@115940 when are you guys gonna get the streaming rights to Gargoyles?? You know, one of the greatest cartoons of all times.",
+        "brand_reply_snippet":"@493536 Excellent series! We'll be sure to pass this along to the team. Keep an \ud83d\udc41 on: https:\/\/t.co\/r9MCqHxrfq for any updates. \ud83d\udc4d",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":901070,
+        "conversation_id":808385,
+        "customer_snippet":"@115940 services not working?getting error playing video message in multiple devices!",
+        "brand_reply_snippet":"@333900 Yikes! Does the error pop up at app launch or playback? What's the specific wording? Start by rebooting the devices+modem\/router.",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":1752197,
+        "conversation_id":1598967,
+        "customer_snippet":"@hulu_support Constant pauses and missing chunks of live TV watching NFL football (Eagles\/Broncos); first World Series now this, horrible.",
+        "brand_reply_snippet":"@527879 We're very sorry to hear that you've been running into such trouble, Justin. What device do you stream from? Any error messages?",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":1225901,
+        "conversation_id":1108893,
+        "customer_snippet":"I'll keep my subscription if y'all add One Tree Hill @115940",
+        "brand_reply_snippet":"@407591 Hey there, Laura! We can't make any promises, but we'd be happy to forward your request for the show to come to Hulu soon.",
+        "is_deflection":false,
+        "reply_word_count":27
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":1092867,
+        "conversation_id":985535,
+        "customer_snippet":"@hulu_support why... why is Hulu down so often here in Oviedo, FL? It's too hot to go outside..help :(",
+        "brand_reply_snippet":"@135516 Oh no! What behavior do you come across (buffering, errors)? What device is in use? Please start with: https:\/\/t.co\/HXpLyTCvKX.",
+        "is_deflection":false,
+        "reply_word_count":23
+      }
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":1
+  },
+  {
+    "message_id":2914719,
+    "intent":"app_interface_and_ux",
+    "intent_confidence":0.95,
+    "intent_runner_up":"other",
+    "silver_intent":"app_interface_and_ux",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 5 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"We'll share your feedback!",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":1522293,
+        "conversation_id":1382987,
+        "customer_snippet":"@115940 @61154 where is last nights @294918 show!??!?!?!",
+        "brand_reply_snippet":"@376144 Sorry for the delay! Hopefully you've caught it by now, but if not\u2014the 10\/31 ep can be found here: https:\/\/t.co\/2wFSyXNBkC. Enjoy!",
+        "is_deflection":false,
+        "reply_word_count":28
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":256049,
+        "conversation_id":220319,
+        "customer_snippet":"@hulu_support I can\u2019t get the list to come up, I\u2019m trying to watch Recovery Road.... there are adds about every 10 min",
+        "brand_reply_snippet":"@176913 Apologies! Here's the list of shows not included in our No Commercials plan: https:\/\/t.co\/1akNA95Zmo. 1\/2",
+        "is_deflection":false,
+        "reply_word_count":21
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":1075163,
+        "conversation_id":968999,
+        "customer_snippet":"Um.. @115940 isn't letting me watch @180996 and it's a serious problem.",
+        "brand_reply_snippet":"@373679 Uh oh! It sounds like you wandered into The Bad Place. :( What device is in use? Any errors? We have Chidi on stand-by to help!",
+        "is_deflection":false,
+        "reply_word_count":27
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":1577896,
+        "conversation_id":1434246,
+        "customer_snippet":"Hi @115940 , is your service available in India? how much is the cost per month in Indian rupees?",
+        "brand_reply_snippet":"@485987 Hi Suhail! Hulu is a US-based streaming service at this time, so we don't stream in India. We'll share your interest!",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":1821075,
+        "conversation_id":1668357,
+        "customer_snippet":"@115940 refuses to open for us. Wtf. Been staring at the logo screen for like ten minutes now. Can't even get to the horrible home page. \ud83d\ude11",
+        "brand_reply_snippet":"@546715 Oh no! What device are you using? Do you get any errors? Please start by working through these: https:\/\/t.co\/HXpLyTU79x.",
+        "is_deflection":false,
+        "reply_word_count":23
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":525111,
+    "intent":"content_availability",
+    "intent_confidence":1.0,
+    "intent_runner_up":"other",
+    "silver_intent":"content_availability",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 5 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"Hiya! We typically get the full season after its run on TV.",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":347461,
+        "conversation_id":303524,
+        "customer_snippet":"seriously fuck @115940 for not having the new rick &amp; morty episodes out yet.... \ud83d\ude44",
+        "brand_reply_snippet":"@198748 Hiya! We typically get the full season after its run on TV\u2014though you can catch S3 now, with Hulu Live: https:\/\/t.co\/O9QhZdLbxw.",
+        "is_deflection":false,
+        "reply_word_count":26
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":1597989,
+        "conversation_id":1453451,
+        "customer_snippet":"@hulu_support what's with more adds on your fake tv than real tv?",
+        "brand_reply_snippet":"@490846 Hey there! On Hulu with Live TV we stream directly from the network, so no additional ads breaks are included.",
+        "is_deflection":false,
+        "reply_word_count":21
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":938743,
+        "conversation_id":842841,
+        "customer_snippet":"@115940 constantly stopping play to say \u2018we\u2019re having trouble loading this right now\u2019 is so annoying. Wasn\u2019t an issue until this \u201cupdate\u201d.",
+        "brand_reply_snippet":"@161094 Sorry for the continued trouble, Andie. If the previous steps we sent didn't help, call\/chat here: https:\/\/t.co\/6YdK7bvQN7.",
+        "is_deflection":false,
+        "reply_word_count":23
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":1646551,
+        "conversation_id":1499813,
+        "customer_snippet":"Congrats, @115940, you're once again failing to provided a smooth stream of football. @hulu_support. And Mythbusters plays fine...",
+        "brand_reply_snippet":"@451016 Oh no! What issue are you coming across, Jeff? Have you tried working through the following steps: https:\/\/t.co\/TR6ei0cnf1?",
+        "is_deflection":false,
+        "reply_word_count":22
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":416903,
+        "conversation_id":364465,
+        "customer_snippet":"@hulu_support I attempted to call, and your support line says there is over an hour wait. Are you having issues with other accounts?",
+        "brand_reply_snippet":"@214467 Apologies! Wait times may vary by time of day so we do greatly appreciate your patience.",
+        "is_deflection":false,
+        "reply_word_count":17
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2969316,
+    "intent":"content_availability",
+    "intent_confidence":1.0,
+    "intent_runner_up":"other",
+    "silver_intent":"content_availability",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 5 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"We'll let our team know you're ready for more Chicago!",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":400136,
+        "conversation_id":350711,
+        "customer_snippet":"@hulu_support It's Not In My Stuff. It consistently autoplays after the end of every show I've watched recently. Opposed 2 playing \"Ep.2\" it'll play Mom.",
+        "brand_reply_snippet":"@210616 Uh oh! Autoplay should suggest the next episode if you haven't reached the end of the series. On what device is this happening?",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":1436311,
+        "conversation_id":1303255,
+        "customer_snippet":"@hulu_support Thanks for reaching out - looked like I missed an update,  all good!  Thanks",
+        "brand_reply_snippet":"@314268 You're welcome, Brian! We're glad to hear all is well. If we can assist with anything else, don't hesitate to tweet us. \ud83d\udc4d\ud83c\udffb",
+        "is_deflection":false,
+        "reply_word_count":26
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":2675832,
+        "conversation_id":2506028,
+        "customer_snippet":"@79147 what are you watching RHOBH? I can\u2019t get season 7 on @115940  I need to see what this Dorit is about and her hated hubby. https:\/\/t.co\/lkmRipBXwK",
+        "brand_reply_snippet":"@287325 Apologies! We currently don't have the streaming rights for S7, but we'll let our team know you're ready for more Housewives.",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":893502,
+        "conversation_id":801428,
+        "customer_snippet":"@115940 @hulu_support why won\u2019t the time line fade away? https:\/\/t.co\/gNATKAeuET",
+        "brand_reply_snippet":"@189159 The time should fade a few seconds after an action is taken. If this isn't the case, try reinstalling the app. What device?",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":2369915,
+        "conversation_id":2206891,
+        "customer_snippet":"@115940 your customer support options are horrid.",
+        "brand_reply_snippet":"@683917 Sorry for any frustration! Have you tried connecting with us via phone chat (both 24\/7) here: https:\/\/t.co\/6YdK7bvQN7 ?",
+        "is_deflection":false,
+        "reply_word_count":22
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":486319,
+    "intent":"content_availability",
+    "intent_confidence":1.0,
+    "intent_runner_up":"other",
+    "silver_intent":"content_availability",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "conflicting_precedents",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 5 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":7657,
+        "conversation_id":5016,
+        "customer_snippet":"@hulu_support I have $5K on the WS game, so I expect Hulu to compensate me if the Astros lose seeing as how it'll be due to me being unable to view it.",
+        "brand_reply_snippet":"@712826 Sorry! There was an issue with Live TV last night, but it\u2019s now fixed: https:\/\/t.co\/DcGYAgPstX. Thanks for bearing with us!",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":886574,
+        "conversation_id":794928,
+        "customer_snippet":"@hulu_support One thing about your service needs no improvement. Your customer support is superb.",
+        "brand_reply_snippet":"@314808 You're going to make us blush! \ud83d\ude18 We're here and happy to assist anytime you need us. Enjoy the rest of your weekend",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":1077885,
+        "conversation_id":971469,
+        "customer_snippet":"@hulu_support Nothing worked in Firefox or Edge, Chrome is the only thing that works",
+        "brand_reply_snippet":"@374286 Got it! If the steps we shared haven't made any impact so far, give us a call or chat using these: https:\/\/t.co\/6YdK7bvQN7.",
+        "is_deflection":false,
+        "reply_word_count":27
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":54653,
+        "conversation_id":43821,
+        "customer_snippet":"@115940  False alarm... the eps were in the wrong order but all of season 1 is there. @36499 fans should check it out",
+        "brand_reply_snippet":"@128394 Hi, Liz! Looks like we have s1 episodes in the correct order here on our end. Can you tell us what device you're using?",
+        "is_deflection":false,
+        "reply_word_count":26
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":364319,
+        "conversation_id":317986,
+        "customer_snippet":"@hulu_support why are you charging for this service? Obs still has bugs.  Can't watch Giants game - \"buffering\" cbs app works w\/o issue https:\/\/t.co\/Ukj5revC4g",
+        "brand_reply_snippet":"@202348 Apologies! It looks like you're running into something we're investigating. Please reach out at: https:\/\/t.co\/6YdK7bvQN7 for info.",
+        "is_deflection":false,
+        "reply_word_count":23
+      }
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":true
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":567904,
+    "intent":"content_availability",
+    "intent_confidence":1.0,
+    "intent_runner_up":"other",
+    "silver_intent":"content_availability",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 5 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"We'll definitely let our team know you'd like to see it join us!",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":1220783,
+        "conversation_id":1104052,
+        "customer_snippet":"There's no option to change profile on your app on my kindle and laptop. When i log watch it on chrome, it buffering @115940 @hulu_support",
+        "brand_reply_snippet":"@406443 Apologies! Profiles is available on: https:\/\/t.co\/IiQ57Rhob1. Is the buffering affecting all content? Try: https:\/\/t.co\/6xNmexfdiX.",
+        "is_deflection":false,
+        "reply_word_count":21
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":847312,
+        "conversation_id":758646,
+        "customer_snippet":"@hulu_support, the @115940 app on the @127972 still disconnects from the Internet every 5 minutes. Is this being worked on? #HuluUpdate",
+        "brand_reply_snippet":"@293695 Sorry to hear you're still having trouble! Is all content affected? Have you tried a hardwired vs. wireless connection?",
+        "is_deflection":false,
+        "reply_word_count":21
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":253165,
+        "conversation_id":217614,
+        "customer_snippet":"@hulu_support is Alias leaving Hulu?",
+        "brand_reply_snippet":"@176183 Episodes of this show are set to expire: https:\/\/t.co\/S2gYeht9I5 but we'll share your interest in seeing them stick around!",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":1631624,
+        "conversation_id":1485749,
+        "customer_snippet":"@140259 @115940 Thanks it\u2019s fixed https:\/\/t.co\/csmMEiOi1N",
+        "brand_reply_snippet":"@499346 Glad to hear it, Chris! We're sorry that interfered for a bit. We'll let our team know to keep an eye out. \ud83d\udc4d\ud83c\udffd",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":1202243,
+        "conversation_id":1086646,
+        "customer_snippet":"@hulu_support @115940 aye...where the dub for Dragon Ball at?!",
+        "brand_reply_snippet":"@402470 Hi there! We don't have the rights to the dubbed version, but we'll definitely let our team know you'd like to see it join us.",
+        "is_deflection":false,
+        "reply_word_count":29
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":97522,
+    "intent":"content_availability",
+    "intent_confidence":1.0,
+    "intent_runner_up":"other",
+    "silver_intent":"content_availability",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 5 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"We can't find a supported answer for this in our precedents, so please reach out here: https:\/\/t.co\/6YdK7bvQN7.",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":1308477,
+        "conversation_id":1185000,
+        "customer_snippet":"@hulu_support Is there anOption to BlOCKHollywoodOaks,TheYoung Turks&amp;Other Nonsense that AUTOMATICALLY streams? OnlyWatchlist should stream\ud83d\ude1f",
+        "brand_reply_snippet":"@119274 We can recommend trying this page on a PC\/Mac, which may help with the suggestions: https:\/\/t.co\/JUzzDkRwbx. 2\/2",
+        "is_deflection":false,
+        "reply_word_count":23
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":825731,
+        "conversation_id":738934,
+        "customer_snippet":"Uhh the @115940 app on my tv won\u2019t stop restarting, is something going on @hulu_support?",
+        "brand_reply_snippet":"@316656 Sorry! This does sound like an issue we're looking into. Please chat or call in: https:\/\/t.co\/6YdK7bvQN7 so we can assist further.",
+        "is_deflection":false,
+        "reply_word_count":26
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":2495345,
+        "conversation_id":2329074,
+        "customer_snippet":"I'm beginning to hate @115940, they freeze up every time I watch world series, on TV &amp; mobile devices. Everything else works fine, just them.",
+        "brand_reply_snippet":"@204224 Sorry, Dale! We ran into some issues: https:\/\/t.co\/DcGYAgPstX. If it's persisted, reach out here: https:\/\/t.co\/6YdK7bvQN7.",
+        "is_deflection":false,
+        "reply_word_count":23
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":2098876,
+        "conversation_id":1943947,
+        "customer_snippet":"@hulu_support Tried restarting and reinstalling app. Location is set to correct settings but still is showing soccer and not the scheduled Kings vs Thunder nba game....Any ideas? I got Hulu because of the ability to watch the kings?",
+        "brand_reply_snippet":"@383510 We appreciate this follow-up, Rob. Can you confirm your ZIP Code and the device you're using so we can take a closer look?",
+        "is_deflection":false,
+        "reply_word_count":26
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":1182073,
+        "conversation_id":1068610,
+        "customer_snippet":"@hulu_support Had to sign out, forced to re-select my subscription type (comm vs. no), and all worked. Guessing because $\u2b06\ufe0f? Unfortunate generic err code.",
+        "brand_reply_snippet":"@397980 We're happy to hear you're back up and running. We'll be sure to share your feedback regarding this with our team.",
+        "is_deflection":false,
+        "reply_word_count":25
+      }
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":507610,
+    "intent":"technical_support_and_errors",
+    "intent_confidence":0.6,
+    "intent_runner_up":"other",
+    "silver_intent":"watchlist_and_playback_tracking",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "low_quality_input",
+      "low_confidence",
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 low_quality_input: message has fewer than 4 content words, too little to act on. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you share a few more details so we can help?",
+    "reply_type":"holding_ack",
+    "draft_reply":"Hey there! Sorry for the delay. Feel free to leave us any specific details as we'd love to see how we can assist.",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":50297,
+        "conversation_id":39948,
+        "customer_snippet":"@hulu_support plz help me",
+        "brand_reply_snippet":"@127277 Hey there! Sorry for the delay. Feel free to leave us any specific details as we'd love to see how we can assist.",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":2145354,
+        "conversation_id":1988307,
+        "customer_snippet":"@hulu_support Well, it should suggest new content that is actually on my list to watch.",
+        "brand_reply_snippet":"@630696 We're happy to pass along the feedback, Carrie! If we can assist with anything else, please don't hesitate to tweet us. \ud83d\udc4d\ud83c\udffb",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":868878,
+        "conversation_id":778485,
+        "customer_snippet":"@hulu_support support multiple times each night with a 30-45 min delay. Issue does not persist with Sling TV or PS Vue. Is there a fix in the works?",
+        "brand_reply_snippet":"@196950 Thanks for the report, Ian! We've passed this along for further review and will look out for similar reports in the meantime.",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":976983,
+        "conversation_id":878843,
+        "customer_snippet":"For some reason I'm getting the Spanish @215  commercials on @115940. My Spanish is mediocre at best.",
+        "brand_reply_snippet":"@351716 Sorry for any trouble! Spanish ads may appear for many reasons, but we'd love to take a closer look here: https:\/\/t.co\/6YdK7bvQN7.",
+        "is_deflection":false,
+        "reply_word_count":26
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":1103177,
+        "conversation_id":759934,
+        "customer_snippet":"@hulu_support Done all that, this is a server, Hulu issue,",
+        "brand_reply_snippet":"@380332 Sorry to hear those didn't do the trick! Please call us\/chat us so we can take a closer look on our end: https:\/\/t.co\/6YdK7bvQN7.",
+        "is_deflection":false,
+        "reply_word_count":29
+      }
+    ],
+    "grounding_check":{
+      "claims":2,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2944190,
+    "intent":"content_availability",
+    "intent_confidence":0.9,
+    "intent_runner_up":"other",
+    "silver_intent":"content_availability",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 5 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"Sorry for any disappointment! Content comes on and off our service due to rights but we'll share your interest w\/ our team!",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":1369338,
+        "conversation_id":1240341,
+        "customer_snippet":"@115940 when is the new Rick and Morty going to be streaming???",
+        "brand_reply_snippet":"@438737 We're able to add the new eps now for Live TV viewers. We're usually able to stream past seasons for on-demand, no dates yet.",
+        "is_deflection":false,
+        "reply_word_count":28
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":909233,
+        "conversation_id":805868,
+        "customer_snippet":"@hulu_support For the amount of money it's not worth it.",
+        "brand_reply_snippet":"@333324 We'd hate to lose you! Call or chat when you have a moment and we'll take a closer look together (https:\/\/t.co\/6YdK7bvQN7).",
+        "is_deflection":false,
+        "reply_word_count":27
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":1618750,
+        "conversation_id":1473400,
+        "customer_snippet":"What happened to Leverage @115940 @hulu_support? Very upset.",
+        "brand_reply_snippet":"@496282 Sorry for any disapppointment! Content comes on and off our service due to rights but we'll share your interest w\/ our team!",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":895422,
+        "conversation_id":759934,
+        "customer_snippet":"@hulu_support Why am I paying for \"no commercials\" for on demand library but I'm still forced to watch them?  Chat support offered no help.",
+        "brand_reply_snippet":"@332617 Sorry! With No Commercials, you should only see ads for 7 shows: https:\/\/t.co\/1akNA95Zmo. Which shows play ads and on what device?",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":283776,
+        "conversation_id":235319,
+        "customer_snippet":"@hulu_support No worries. I just thought y\u2019all should know",
+        "brand_reply_snippet":"@180997 Gotcha. We appreciate the report! \ud83e\udd17 Don't hesitate to reply here if you have anything else for us.",
+        "is_deflection":false,
+        "reply_word_count":19
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2912964,
+    "intent":"content_availability",
+    "intent_confidence":1.0,
+    "intent_runner_up":"other",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "conflicting_precedents",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We're so sorry for the trouble! We'll forward your enhancement requests along to our team.",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":2438032,
+        "conversation_id":2273197,
+        "customer_snippet":"@hulu_support  is not helping and my live streaming is still not working. Think about going back to sling tv",
+        "brand_reply_snippet":"@257723 We're so sorry for the trouble! We're aware of issues with live playback and are working on a fix! Our sincere apologies.",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":1763094,
+        "conversation_id":1609393,
+        "customer_snippet":"@hulu_support why so much playback failure tonight?",
+        "brand_reply_snippet":"@530454 So sorry for any trouble! Which device is this occurring on? In the meantime, check out these tips: https:\/\/t.co\/HXpLyTU79x",
+        "is_deflection":false,
+        "reply_word_count":23
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":1893991,
+        "conversation_id":1739375,
+        "customer_snippet":"@hulu_support Tried that, no help. But it is back now.",
+        "brand_reply_snippet":"@564607 Glad to hear you're back in action! Sorry about that. Let us know if we can help with anything else. Have a good one!",
+        "is_deflection":false,
+        "reply_word_count":26
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":1595255,
+        "conversation_id":1450795,
+        "customer_snippet":"@hulu_support Trying out the trial for CBS All Access just to be able to watch the game. No buffering at all.",
+        "brand_reply_snippet":"@490169 Did you know you can use your Hulu login to access all of our partner apps for free? Check out: https:\/\/t.co\/qeNe09yc0o.",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":1766609,
+        "conversation_id":1612526,
+        "customer_snippet":"@115940 Roku app feature rqsts: 1. mark shows as watched (when seen in real time on networks), 2. slow down ff &amp; rw to a normal human speed",
+        "brand_reply_snippet":"@531246 Thanks for the input, Jason! We'll forward your enhancement requests along to our team. If you have more: https:\/\/t.co\/n4qDfJdbFR.",
+        "is_deflection":false,
+        "reply_word_count":24
+      }
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":1
+  },
+  {
+    "message_id":2857573,
+    "intent":"content_availability",
+    "intent_confidence":0.9,
+    "intent_runner_up":"other",
+    "silver_intent":"content_availability",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 5 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"Sorry for any frustration! We'll share your feedback.",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":196810,
+        "conversation_id":164492,
+        "customer_snippet":"@hulu_support When is the next scheduled update to the @127972 app?",
+        "brand_reply_snippet":"@162302 Hey James. We don't have specifics to share, but you can keep an eye on: https:\/\/t.co\/vIaXcSkZFa for update details.",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":2605906,
+        "conversation_id":2436739,
+        "customer_snippet":"@hulu_support my Hulu live tv is always buffering and skipping content. I have tried different devices and networks and same thing?",
+        "brand_reply_snippet":"@737273 Sorry about yesterday! The issue with live playback was solved: https:\/\/t.co\/iwd4qdktMg. Let us know if it reoccurs at any point.",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":765170,
+        "conversation_id":684254,
+        "customer_snippet":"Why does every episode in \u201cmy stuff\u201d on @115940 save to my DVR? Wish you could just record individual episodes. If I\u2019ve seen it, why record it",
+        "brand_reply_snippet":"@302885 Sorry for any frustration, Amanda! We'll share your feedback. These might help: https:\/\/t.co\/aLzDvfBwEu and https:\/\/t.co\/reT8R7w2rr.",
+        "is_deflection":false,
+        "reply_word_count":23
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":345969,
+        "conversation_id":302118,
+        "customer_snippet":"@hulu_support My internet speed is not the issue. I never have streaming issues on any other apps. What now? https:\/\/t.co\/7Jk3ee91uW",
+        "brand_reply_snippet":"@178277 Speeds look great, Chris! Thanks for checking that for us. Let us know if these steps: https:\/\/t.co\/TR6ei0cnf1 help.",
+        "is_deflection":false,
+        "reply_word_count":22
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":772527,
+        "conversation_id":690568,
+        "customer_snippet":"What the hell @115940 I was thinking of upgrading my membership but is not even working tonight. What bullshit.",
+        "brand_reply_snippet":"@304540 Sorry! We experienced an outage on our end: https:\/\/t.co\/7Mc0lzOwGE. Rebooting your device and modem\/router should do the trick.",
+        "is_deflection":false,
+        "reply_word_count":23
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":573278,
+    "intent":"live_tv_streaming",
+    "intent_confidence":0.9,
+    "intent_runner_up":"technical_support_and_errors",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"Apologies! We'll share your feedback.",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":2098908,
+        "conversation_id":1943980,
+        "customer_snippet":"@hulu_support Can't be bothered. Literally not worth the effort. Send me an e-mail address I can write to. Your advocates must be dealing with so many countless problems, they're not available to everyone. Says it all.",
+        "brand_reply_snippet":"@213659 At the moment, we don't offer email support but we can express the feedback about the overall experience &amp; request for the future.",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":2147145,
+        "conversation_id":1990121,
+        "customer_snippet":"@hulu_support Google Pixel 1 to chromecast. Happens to any show and ad. Got this new message today. https:\/\/t.co\/QHPPRUMLke",
+        "brand_reply_snippet":"@581572 Sorry! We received reports of users getting ERROR on Chromecast, but restarting resolves the issue. Let us know if that helps.",
+        "is_deflection":false,
+        "reply_word_count":22
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":916140,
+        "conversation_id":822315,
+        "customer_snippet":"@115940 @hulu_support So just signed up a few hrs ago. 1 thing is clear to me abt Hulu so far. We have VERY different definitions of limited https:\/\/t.co\/xkcILE8nQd",
+        "brand_reply_snippet":"@219849 Sorry for any frustration! The number and length of ads varies from show to show, network to network. We'll share your feedback.",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":7695,
+        "conversation_id":5016,
+        "customer_snippet":"@hulu_support Here's the issue. It's playing live for a while, then jump to the previous program.",
+        "brand_reply_snippet":"@714291 Apologies! This was a known issue last night, but it\u2019s now fixed: https:\/\/t.co\/DcGYAgPstX. Thanks for bearing with us!",
+        "is_deflection":false,
+        "reply_word_count":23
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":1154309,
+        "conversation_id":1042744,
+        "customer_snippet":"@hulu_support Doing so now. Will let you know.",
+        "brand_reply_snippet":"@391577 We hope you've been back to streaming since we last talked, Andy! If not, don't hesitate to reach out: https:\/\/t.co\/6YdK7bvQN7.",
+        "is_deflection":false,
+        "reply_word_count":26
+      }
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2970398,
+    "intent":"technical_support_and_errors",
+    "intent_confidence":0.95,
+    "intent_runner_up":"other",
+    "silver_intent":"technical_support_and_errors",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 5 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"Oh no! Let's see if we can help. Try out: https:\/\/t.co\/HXpLyTU79x and https:\/\/t.co\/3uvet4t5u0. Any improvement after that?",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":2333524,
+        "conversation_id":2171583,
+        "customer_snippet":"@115940 Why can't I ever stream Sunday Night Football. $40 a month is steep considering this is a consistent issue. This is getting ridiculous",
+        "brand_reply_snippet":"@675341 Sorry! If your NBC affiliate is down, we're looking into this. Please use NBC Sports App for now: https:\/\/t.co\/qeNe09yc0o.",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":1250168,
+        "conversation_id":1131758,
+        "customer_snippet":"@hulu_support @115940 Finally got a human on the phone. Long wait time due to people calling to cancel (which can be done online). Idiotic .@115940.",
+        "brand_reply_snippet":"@413317 We appreciate your patience, Michael! If you have any other questions for us, feel free to follow back up with us.",
+        "is_deflection":false,
+        "reply_word_count":22
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":812850,
+        "conversation_id":727302,
+        "customer_snippet":"You pay more on @115940 to not get ads. But instead of the show, they just have a logo screen for however long the supposed ad is. The fuck",
+        "brand_reply_snippet":"@172329 There is usually a network pre-roll ad for all content regardless of plan. We'll be sure to forward along your feedback for review.",
+        "is_deflection":false,
+        "reply_word_count":26
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":1508226,
+        "conversation_id":1370409,
+        "customer_snippet":"@115940 and @118302 need to fix #Hulu streaming!!! #buffering &amp; #skipping #nonstop! I\u2019m about to #cancel my @115940 #subscription!",
+        "brand_reply_snippet":"@249087 Oh no! Let's see if we can help. Try out: https:\/\/t.co\/HXpLyTU79x and https:\/\/t.co\/3uvet4t5u0. Any improvement after that?",
+        "is_deflection":false,
+        "reply_word_count":25
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":2677554,
+        "conversation_id":2507811,
+        "customer_snippet":"@hulu_support Hi, why can\u2019t I locate Chance Season 2 on Hulu?  Season 2 does not come up on the search function?  Please advise.",
+        "brand_reply_snippet":"@753548 Hm, you should be seeing it... Please try: https:\/\/t.co\/HXpLyTU79x to reset and clear your device cache. We'll standby. \ud83d\udc4d",
+        "is_deflection":false,
+        "reply_word_count":23
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":1
+  },
+  {
+    "message_id":499406,
+    "intent":"technical_support_and_errors",
+    "intent_confidence":0.9,
+    "intent_runner_up":"app_interface_and_ux",
+    "silver_intent":"technical_support_and_errors",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "conflicting_precedents"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 5 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"Sorry for the continued frustrations here! Connect with us here: https:\/\/t.co\/6YdK7bNrEF for one on one support.",
+    "evidence":[
+      {
+        "rank":1,
+        "score":0.0,
+        "customer_tweet_id":1096373,
+        "conversation_id":988628,
+        "customer_snippet":"@hulu_support I have a LG smart tv and my Huluplus app is not working any reason why",
+        "brand_reply_snippet":"@167055 Uh oh! What's the exact issue you're coming across? What's your LG's model number? Do these: https:\/\/t.co\/3uvet4t5u0 help?",
+        "is_deflection":false,
+        "reply_word_count":26
+      },
+      {
+        "rank":2,
+        "score":0.0,
+        "customer_tweet_id":891885,
+        "conversation_id":799940,
+        "customer_snippet":"@hulu_support When I contacted support they said my stuff wasn\u2019t recording cuz I needed to delete. It\u2019s a pain doing it one by one.",
+        "brand_reply_snippet":"@316964 That's not the case, Amy. Sorry about that! Check out: https:\/\/t.co\/4GPkQLlTbj for specifics. Who did you speak w\/ earlier?",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":3,
+        "score":0.0,
+        "customer_tweet_id":2679949,
+        "conversation_id":2510151,
+        "customer_snippet":"@115940 can you add  @19549 back????? https:\/\/t.co\/RRT5HdIKWx",
+        "brand_reply_snippet":"@754020 No promises, but we'll gladly share your request with our content team! \ud83e\udd1e",
+        "is_deflection":false,
+        "reply_word_count":14
+      },
+      {
+        "rank":4,
+        "score":0.0,
+        "customer_tweet_id":2570594,
+        "conversation_id":2402419,
+        "customer_snippet":".@115940 your live TV streaming is unbearable. Trying to watch an NFL game and it's skipping all over and choking the feed constantly. My internet connection is fine. No way will I subscribe after this trial.",
+        "brand_reply_snippet":"@729012 Sorry for the trouble! We've been investigating these reports and will be taking steps to smooth things out w\/ our live streams.",
+        "is_deflection":false,
+        "reply_word_count":24
+      },
+      {
+        "rank":5,
+        "score":0.0,
+        "customer_tweet_id":203664,
+        "conversation_id":171056,
+        "customer_snippet":"@hulu_support ATv 4.can't select any content, just browse. I really need to speak to someone about this - 3 days for a generic response isn't good enough",
+        "brand_reply_snippet":"@164192 Sorry for the continued frustrations here! Connect with us here: https:\/\/t.co\/6YdK7bNrEF for one on one support.",
+        "is_deflection":false,
+        "reply_word_count":20
+      }
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":0
+    },
+    "sufficient_evidence":true,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  }
+]

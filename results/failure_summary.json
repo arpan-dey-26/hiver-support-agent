@@ -1,0 +1,27 @@
+[
+  {
+    "mode": "over-escalation",
+    "count": 74,
+    "pct": 49.3
+  },
+  {
+    "mode": "poorly grounded reply",
+    "count": 48,
+    "pct": 32.0
+  },
+  {
+    "mode": "no historical precedent retrieved",
+    "count": 46,
+    "pct": 30.7
+  },
+  {
+    "mode": "unsupported claim in draft",
+    "count": 45,
+    "pct": 30.0
+  },
+  {
+    "mode": "model output failed to parse",
+    "count": 11,
+    "pct": 7.3
+  }
+]

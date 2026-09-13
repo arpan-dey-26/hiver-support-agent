@@ -1,0 +1,1277 @@
+[
+  {
+    "message_id":559291,
+    "intent":"live_tv_streaming",
+    "intent_confidence":0.85,
+    "intent_runner_up":"technical_support_and_errors",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":true
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":464786,
+    "intent":"app_interface_and_ux",
+    "intent_confidence":0.95,
+    "intent_runner_up":"other",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"Thanks for sharing your feedback with us! We'll be sure to pass your thoughts along to the team.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2980662,
+    "intent":"account_and_billing_management",
+    "intent_confidence":0.95,
+    "intent_runner_up":"technical_support_and_errors",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft",
+      "intent_not_auto_allowed"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We cannot verify account details here to explain why your service is disconnected, as we lack sufficient evidence in our precedents to address this billing issue.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":1
+  },
+  {
+    "message_id":460328,
+    "intent":"content_availability",
+    "intent_confidence":0.95,
+    "intent_runner_up":"other",
+    "silver_intent":"content_availability",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "low_quality_input",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 low_quality_input: message has fewer than 4 content words, too little to act on. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you share a few more details so we can help?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have information to share about adding that at this time, but we'll certainly pass your request along to the appropriate team!",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":565509,
+    "intent":"commercials_and_ads",
+    "intent_confidence":0.85,
+    "intent_runner_up":"other",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We hear you and appreciate your feedback regarding the ad experience.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2971763,
+    "intent":"technical_support_and_errors",
+    "intent_confidence":0.5,
+    "intent_runner_up":"app_interface_and_ux",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "low_confidence",
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 low_confidence: intent confidence 0.50 is below the 0.7 threshold. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We need more information to help. Are you experiencing a specific error or issue on your Roku devices?",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2927259,
+    "intent":"technical_support_and_errors",
+    "intent_confidence":0.95,
+    "intent_runner_up":"app_interface_and_ux",
+    "silver_intent":"technical_support_and_errors",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 0 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have enough information in our resources to troubleshoot this Firestick playback issue right now.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":561124,
+    "intent":"technical_support_and_errors",
+    "intent_confidence":0.95,
+    "intent_runner_up":"other",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have enough information to help with this right now, but we can look into it if you'd like to share more details.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":458827,
+    "intent":"other",
+    "intent_confidence":1.0,
+    "intent_runner_up":"technical_support_and_errors",
+    "silver_intent":"other",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "unknown_intent",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 unknown_intent: message does not fall into any intent the taxonomy covers. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about what you need?",
+    "reply_type":"holding_ack",
+    "draft_reply":"",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":true
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":561153,
+    "intent":"technical_support_and_errors",
+    "intent_confidence":0.85,
+    "intent_runner_up":"account_and_billing_management",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have enough information to assist with this, but please let us know what device you are using and if you're seeing any error messages.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":597214,
+    "intent":"live_tv_streaming",
+    "intent_confidence":0.8,
+    "intent_runner_up":"other",
+    "silver_intent":"technical_support_and_errors",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"Thanks for letting us know! We're glad to hear those games streamed well for you.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2901719,
+    "intent":"other",
+    "intent_confidence":0.5,
+    "intent_runner_up":"technical_support_and_errors",
+    "silver_intent":"other",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "unknown_intent",
+      "low_confidence",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 unknown_intent: message does not fall into any intent the taxonomy covers. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about what you need?",
+    "reply_type":"holding_ack",
+    "draft_reply":"",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":true
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2872803,
+    "intent":"other",
+    "intent_confidence":0.7,
+    "intent_runner_up":"technical_support_and_errors",
+    "silver_intent":"other",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "unknown_intent",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 unknown_intent: message does not fall into any intent the taxonomy covers. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about what you need?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We'd be happy to take a closer look at what's going on. Please send us a DM with more details.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2894845,
+    "intent":"other",
+    "intent_confidence":0.8,
+    "intent_runner_up":"app_interface_and_ux",
+    "silver_intent":"other",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "unknown_intent",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 unknown_intent: message does not fall into any intent the taxonomy covers. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about what you need?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have enough information to answer your question based on our current resources.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":457266,
+    "intent":"live_tv_streaming",
+    "intent_confidence":0.8,
+    "intent_runner_up":"technical_support_and_errors",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have enough information in our resources to answer why this happens with your DVR recording, but we're here to help if you want to share more details.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":1
+  },
+  {
+    "message_id":490963,
+    "intent":"technical_support_and_errors",
+    "intent_confidence":0.9,
+    "intent_runner_up":"commercials_and_ads",
+    "silver_intent":"technical_support_and_errors",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 0 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have sufficient evidence to provide a troubleshooting step based on past precedents, but we recommend checking your connection.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2909735,
+    "intent":"content_availability",
+    "intent_confidence":0.9,
+    "intent_runner_up":"technical_support_and_errors",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have enough information to confirm the details of this missing content at this time.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2890153,
+    "intent":"watchlist_and_playback_tracking",
+    "intent_confidence":0.95,
+    "intent_runner_up":"technical_support_and_errors",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have information on this specific issue right now.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2898152,
+    "intent":"live_tv_streaming",
+    "intent_confidence":0.9,
+    "intent_runner_up":"content_availability",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft",
+      "multi_intent"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":true
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2914747,
+    "intent":"content_availability",
+    "intent_confidence":0.9,
+    "intent_runner_up":"app_interface_and_ux",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We hear you and appreciate you sharing your thoughts on how unavailable titles appear in search results. We'll be sure to pass this feedback along to the appropriate team.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":569000,
+    "intent":"live_tv_streaming",
+    "intent_confidence":0.95,
+    "intent_runner_up":"technical_support_and_errors",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have sufficient details to answer this. Let us know what device you're using and if you've tried troubleshooting yet.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":564389,
+    "intent":"live_tv_streaming",
+    "intent_confidence":0.95,
+    "intent_runner_up":"technical_support_and_errors",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":true
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2903394,
+    "intent":"app_interface_and_ux",
+    "intent_confidence":0.9,
+    "intent_runner_up":"other",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have enough information to confirm if a download button is planned, but we appreciate you sharing your feedback with us!",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":460357,
+    "intent":"technical_support_and_errors",
+    "intent_confidence":0.9,
+    "intent_runner_up":"account_and_billing_management",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "account_action_required",
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 account_action_required: request needs a change to the customer's account, which this system must never perform. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll need to verify your account before making any changes.",
+    "reply_type":"holding_ack",
+    "draft_reply":"",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":true
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":447712,
+    "intent":"app_interface_and_ux",
+    "intent_confidence":0.8,
+    "intent_runner_up":"other",
+    "silver_intent":"content_availability",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We hear you! We'll be sure to pass your feedback along to the team.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2914754,
+    "intent":"app_interface_and_ux",
+    "intent_confidence":0.9,
+    "intent_runner_up":"technical_support_and_errors",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have enough information in our resources to address this specific Roku replay button issue.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":542659,
+    "intent":"commercials_and_ads",
+    "intent_confidence":0.95,
+    "intent_runner_up":"account_and_billing_management",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We hear you, but since we have no precedents available to address your specific plan concern, we cannot provide further details right now.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2914719,
+    "intent":"app_interface_and_ux",
+    "intent_confidence":0.95,
+    "intent_runner_up":"other",
+    "silver_intent":"app_interface_and_ux",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 0 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"We hear you and appreciate your feedback on the new update.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":525111,
+    "intent":"content_availability",
+    "intent_confidence":1.0,
+    "intent_runner_up":"watchlist_and_playback_tracking",
+    "silver_intent":"content_availability",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 0 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have information on when new episodes will be available to share right now.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2969316,
+    "intent":"content_availability",
+    "intent_confidence":1.0,
+    "intent_runner_up":"other",
+    "silver_intent":"content_availability",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 0 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have information to share about when that show will be available.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":486319,
+    "intent":"content_availability",
+    "intent_confidence":1.0,
+    "intent_runner_up":"other",
+    "silver_intent":"content_availability",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 0 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have information on whether that season will be added, but we can certainly share your interest with our team!",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":567904,
+    "intent":"content_availability",
+    "intent_confidence":1.0,
+    "intent_runner_up":"other",
+    "silver_intent":"content_availability",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 0 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have information on when new seasons of that show will be available on Hulu right now.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":1,
+      "unsupported":1
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":97522,
+    "intent":"content_availability",
+    "intent_confidence":1.0,
+    "intent_runner_up":"other",
+    "silver_intent":"content_availability",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 0 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have enough information to say when that episode will be available, but we'll share your feedback.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":507610,
+    "intent":"technical_support_and_errors",
+    "intent_confidence":0.4,
+    "intent_runner_up":"other",
+    "silver_intent":"watchlist_and_playback_tracking",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "low_quality_input",
+      "low_confidence",
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 low_quality_input: message has fewer than 4 content words, too little to act on. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you share a few more details so we can help?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have enough information to help with your Xbox One right now. Could you please share more details about what's happening?",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2944190,
+    "intent":"content_availability",
+    "intent_confidence":0.9,
+    "intent_runner_up":"other",
+    "silver_intent":"content_availability",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 0 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have information on this right now, but we'll share your feedback with the appropriate team.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2912964,
+    "intent":"content_availability",
+    "intent_confidence":1.0,
+    "intent_runner_up":"other",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have information to share right now on when or if season 3 of Rick and Morty will be available.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2857573,
+    "intent":"content_availability",
+    "intent_confidence":0.9,
+    "intent_runner_up":"other",
+    "silver_intent":"content_availability",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 0 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have enough information to answer this right now.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":573278,
+    "intent":"live_tv_streaming",
+    "intent_confidence":0.9,
+    "intent_runner_up":"other",
+    "silver_intent":"other",
+    "classifier_agreement":false,
+    "decision":"escalate",
+    "reason_codes":[
+      "classifier_disagreement",
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 classifier_disagreement: the LLM and the distilled TF-IDF classifier chose different intents. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. Could you tell us a little more about the issue?",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have enough information to help with this issue right now.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":2970398,
+    "intent":"technical_support_and_errors",
+    "intent_confidence":0.9,
+    "intent_runner_up":"other",
+    "silver_intent":"technical_support_and_errors",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 0 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"We don't have enough information to help with this yet.",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":false
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  },
+  {
+    "message_id":499406,
+    "intent":"technical_support_and_errors",
+    "intent_confidence":0.95,
+    "intent_runner_up":"app_interface_and_ux",
+    "silver_intent":"technical_support_and_errors",
+    "classifier_agreement":true,
+    "decision":"escalate",
+    "reason_codes":[
+      "insufficient_evidence",
+      "ungrounded_draft"
+    ],
+    "reason":"escalate \u2014 insufficient_evidence: only 0 of 0 retrieved precedents scored above 12.9202; the brand has no consistent historical response. Needs a human.",
+    "reply":"Thanks for reaching out \u2014 I'm passing this to a member of our team who can look into it properly. They'll be able to give you a definitive answer.",
+    "reply_type":"holding_ack",
+    "draft_reply":"",
+    "evidence":[
+
+    ],
+    "grounding_check":{
+      "claims":0,
+      "unsupported":0
+    },
+    "sufficient_evidence":false,
+    "parse_failures":{
+      "analyze":true
+    },
+    "policy_version":"v1",
+    "model":"models\/gemini-3.5-flash-lite",
+    "latency_ms":0
+  }
+]
