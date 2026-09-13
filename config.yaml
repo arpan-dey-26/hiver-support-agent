@@ -1,0 +1,116 @@
+project:
+  name: hiver-twitter-support-agent
+  seed: 42
+paths:
+  raw_csv: data/raw/twcs.csv
+  processed_dir: data/processed
+  gold_dir: data/gold
+  cache_dir: cache/llm
+  results_dir: results
+models:
+  generation: models/gemini-3.5-flash-lite
+  judge: models/gemini-3.1-flash-lite
+  pre_annotation: models/gemini-3.5-flash-lite
+  temperature: 0.0
+  max_output_tokens: 1024
+  response_mime_type: application/json
+llm_cache:
+  enabled: true
+  commit_to_repo: true
+quota:
+  observed_rpm: null
+  observed_rpd: null
+brand:
+  selected: hulu_support
+  selection_rubric_version: v1
+  evidence:
+    rank_by_substantive_reply_rate: 1
+    n_conversations_unambiguous: 14871
+    n_inbound_in_unambiguous_convs: 25889
+    pct_multiturn_depth_ge_2: 38.61
+    substantive_reply_rate_pct: 99.46
+    deflection_rate_strict_pct: 0.24
+    mean_reply_words: 25.0
+    span_days: 1213
+  fallback_if_separability_fails: British_Airways
+splits:
+  strategy: conversation_id_time_ordered
+  history_frac: 0.7
+  dev_frac: 0.2
+  gold_pool_frac: 0.1
+  dedup:
+    exact_normalised_text: true
+taxonomy:
+  version: v1
+  n_intents: 7
+  intents:
+  - content_availability
+  - account_and_billing_management
+  - live_tv_streaming
+  - commercials_and_ads
+  - technical_support_and_errors
+  - app_interface_and_ux
+  - watchlist_and_playback_tracking
+  other_label: other
+  rare_intent_min_share: 0.02
+retrieval:
+  method: bm25
+  k: 5
+  score_floor: 12.9202
+  contingency:
+    trigger_metric: precision_at_5
+    trigger_threshold: 0.6
+    eval_n_queries: 50
+    enabled: false
+resolution_proxy:
+  require_brand_reply: true
+  min_thread_depth: 1
+  exclude_deflection_only: null
+  validation:
+    n_resolved_sampled: 50
+    n_unresolved_sampled: 25
+    min_acceptable_precision: 0.7
+    measured_precision: null
+escalation:
+  policy_version: v1
+  tau_intent_confidence: 0.7
+  theta_evidence_score: 12.9202
+  m_min_evidence_items: 1
+  auto_allowed_intents:
+  - content_availability
+  - live_tv_streaming
+  - commercials_and_ads
+  - technical_support_and_errors
+  - app_interface_and_ux
+  - watchlist_and_playback_tracking
+  always_escalate_reason_codes:
+  - sensitive_topic
+  - account_action_required
+  - unknown_intent
+  - low_quality_input
+golden_set:
+  target_n: 150
+  relabel_subset_n: 30
+  second_annotator_n: 25
+judge:
+  rubric_version: v1
+  dimensions_1_to_5:
+  - relevance
+  - groundedness
+  - helpfulness
+  - tone_fit
+  - completeness
+  binary_flags:
+  - unsupported_claims
+  - escalation_appropriate
+  composite_excludes:
+  - unsupported_claims
+  max_retries: 2
+  agreement_study_n: 50
+metrics:
+  bootstrap_resamples: 10000
+  ci: 0.95
+  headline_intent_metric: macro_f1
+  headline_safety_metric: unsafe_auto_handle_rate
+  appendix_only:
+  - rouge_l

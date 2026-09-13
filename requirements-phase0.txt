@@ -1,0 +1,17 @@
+# Phase 0 only — verification, not the full project.
+# Pin exact versions in the final requirements.txt once Phase 0 confirms what runs.
+
+pandas>=2.0
+numpy>=1.24
+scikit-learn>=1.3
+scipy>=1.10
+PyYAML>=6.0
+pyarrow>=14.0
+rank_bm25>=0.2.2
+google-genai>=1.0
+tqdm>=4.65
+matplotlib>=3.7
+
+# NOT installed at Phase 0. Only if the §F.1 retrieval contingency triggers
+# on a measured Precision@5 below threshold (pulls PyTorch, ~2GB):
+# sentence-transformers>=2.2

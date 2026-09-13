@@ -1,0 +1,123 @@
+# Project configuration. Copy to config.yaml and fill in as evidence arrives.
+#
+# Every value marked UNDECIDED is gated on a Phase 0 / Phase 1 measurement.
+# Do not guess them. The blueprint names the evidence that unblocks each one.
+
+project:
+  name: hiver-twitter-support-agent
+  seed: 42
+
+paths:
+  raw_csv: data/raw/twcs.csv
+  processed_dir: data/processed
+  gold_dir: data/gold
+  cache_dir: cache/llm
+  results_dir: results
+
+# ---------------------------------------------------------------- models
+# NOTHING IS HARD-CODED HERE ON PURPOSE.
+# Fill these from `python scripts/01_check_gemini.py` output:
+#   - generation = cheapest model that passed the structured-JSON smoke test
+#   - judge      = a DIFFERENT model, to reduce self-preference bias.
+#                  If only one model is available, set judge = generation and
+#                  record the resulting bias limitation in the report.
+models:
+  generation: null          # UNDECIDED -> 01_check_gemini.py
+  judge: null               # UNDECIDED -> 01_check_gemini.py
+  pre_annotation: null      # UNDECIDED -> may equal generation
+  temperature: 0.0
+  max_output_tokens: 1024
+  response_mime_type: application/json
+
+llm_cache:
+  enabled: true
+  # commit the cache so the evaluator reproduces headline numbers with no key
+  commit_to_repo: true
+
+quota:                      # from https://aistudio.google.com/rate-limit
+  observed_rpm: null        # UNDECIDED -> read off AI Studio
+  observed_rpd: null        # UNDECIDED -> read off AI Studio
+
+# ----------------------------------------------------------------- data
+brand:
+  selected: null            # UNDECIDED -> 03_profile_brands.py + §C rubric
+  selection_rubric_version: v1
+
+splits:
+  # conversation-level and time-ordered. NEVER split by message (leakage L2).
+  strategy: conversation_id_time_ordered
+  history_frac: 0.70        # retrieval corpus
+  dev_frac: 0.20            # taxonomy, tuning, silver labels
+  gold_pool_frac: 0.10      # golden set is drawn from here only
+  dedup:
+    exact_normalised_text: true
+    minhash_threshold: 0.9
+
+# ------------------------------------------------------------- taxonomy
+taxonomy:
+  version: v1
+  n_intents: null           # UNDECIDED -> cluster reading on DEV (working range 7-9)
+  intents: []               # UNDECIDED
+  other_label: other
+  rare_intent_min_share: 0.02
+
+# ------------------------------------------------------------ retrieval
+retrieval:
+  # BM25 is the default and stays the default unless the DEV evaluation below
+  # fails its trigger. Do not add dense/hybrid for sophistication. (§F.1)
+  method: bm25
+  k: 5                      # start 5, tune on DEV
+  score_floor: null         # UNDECIDED -> DEV
+  contingency:
+    trigger_metric: precision_at_5
+    trigger_threshold: 0.60   # below this, and only if failures are vocabulary
+    eval_n_queries: 50        # mismatch, consider dense + RRF hybrid
+    dense_model: null         # UNDECIDED -> only if triggered
+    enabled: false            # flips to true ONLY with a measured justification
+
+resolution_proxy:
+  # NOT ground truth. Validate before use. (§F.2)
+  require_brand_reply: true
+  min_thread_depth: 2
+  exclude_deflection_only: null   # UNDECIDED -> depends on measured deflection rate
+  validation:
+    n_resolved_sampled: 50
+    n_unresolved_sampled: 25
+    min_acceptable_precision: 0.70   # below -> revise or drop the filter entirely
+    measured_precision: null          # filled in after manual reading
+
+# ------------------------------------------------------------ escalation
+escalation:
+  policy_version: v1
+  tau_intent_confidence: null    # UNDECIDED -> DEV sweep
+  theta_evidence_score: null     # UNDECIDED -> DEV sweep
+  m_min_evidence_items: null     # UNDECIDED -> DEV sweep
+  auto_allowed_intents: []       # allowlist, not denylist. UNDECIDED.
+  always_escalate_reason_codes:
+    - sensitive_topic
+    - account_action_required
+    - unknown_intent
+    - low_quality_input
+
+# ------------------------------------------------------------ evaluation
+golden_set:
+  target_n: 150               # spec range is 150-250
+  relabel_subset_n: 30        # intra-annotator reliability
+  second_annotator_n: 25      # optional stretch
+
+judge:
+  rubric_version: v1
+  dimensions_1_to_5: [relevance, groundedness, helpfulness, tone_fit, completeness]
+  binary_flags: [unsupported_claims, escalation_appropriate]
+  # the hallucination flag is NEVER folded into the composite score
+  composite_excludes: [unsupported_claims]
+  max_retries: 2
+  agreement_study_n: 50
+
+metrics:
+  bootstrap_resamples: 10000
+  ci: 0.95
+  headline_intent_metric: macro_f1
+  headline_safety_metric: unsafe_auto_handle_rate
+  # reported in the appendix only, as a similarity descriptor, never as quality
+  appendix_only: [rouge_l]

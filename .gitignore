@@ -1,0 +1,11 @@
+.env
+.env.*
+data/raw/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+results/phase0/env_report.json
+cache/
+.pytest_cache/
+*.stale
+*.zip
