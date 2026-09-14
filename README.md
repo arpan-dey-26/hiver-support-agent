@@ -118,21 +118,36 @@ data/gold/             golden_set.csv and the labelling note
 results/               metrics.json, failure_analysis.md, run_*.json
 ```
 
+## Measured, and what it showed
+
+**Judge–human agreement: measured on 30 blind paired ratings — and the judge
+failed the check.** Spearman rho runs from **-0.337 to +0.279** across the five
+rubric dimensions, weighted kappas sit at or below zero on four of five, and
+agreement on the unsupported-claim flag is **kappa = 0.043**, which is chance.
+
+A second measurement agrees: the placebo run fed deliberately **random** evidence
+scores 2.20 on groundedness against the agent's 2.37 — a judge separating real
+from random evidence by 0.17 points is not measuring grounding.
+
+Consequence, applied throughout: judge-based reply-quality numbers are reported
+but explicitly demoted, and must not be used to rank the systems. See `REPORT.md`
+§5 for the full table and `DECISIONS.md` D13 for the reasoning.
+
+Collected with `python scripts/26_rate_replies.py --n 30` (blind — it never reads
+the judge's output), then replayed from cache at no API cost.
+
 ## Known-unmeasured
 
 The audit reports these as WARN rather than filling them in:
 
-- **Retrieval Precision@5** — the hand-judged evaluation was not run, so the
-  dense-retrieval contingency could not fire. Retrieval quality is unmeasured.
-- **Resolution-proxy precision** — the 40-exchange human read is not recorded, so
-  `is_deflection` and thread-depth signals are used unvalidated.
-- **Judge–human agreement** — requires human reply ratings. Collect them with:
+- **Retrieval Precision@5** — the hand-judged 50-query evaluation was not run, so
+  the dense-retrieval contingency could not fire either way. Retrieval quality is
+  unmeasured, and the grounding claim rests on an untested retriever.
+- **Resolution-proxy precision** — the 40 sampled exchanges were read but the
+  R/D/N/U label sequence was never recorded, so `is_deflection` and the
+  thread-depth signals remain unvalidated heuristics.
 
-  ```bash
-  python scripts/26_rate_replies.py --n 30   # blind, ~10 min
-  python scripts/24_run_evaluation.py        # replays from cache, no quota
-  python scripts/25_make_report.py
-  ```
+Neither is required by the assignment. Both are stated rather than filled in.
 
 ## Citations
 
