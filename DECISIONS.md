@@ -238,16 +238,73 @@ anywhere.
 
 ---
 
-# PENDING — must be resolved before results are reported
+## D13 — The LLM judge was validated against a human, and failed that check
 
-**PENDING-1 — 40-example human validation of the resolution proxy.**
-The sampled exchanges in `results/phase0/samples_for_manual_reading.md` were read by
-the author, but the R/D/N/U label sequence was not recorded and is **not available**.
-No proxy-precision number exists. Until the labels are recorded, nothing derived from
-them may appear in any result, and the deflection heuristic remains unvalidated.
+The assignment asks for "evidence showing how well the judge agrees with a human".
+That evidence was collected: **30 (message, reply) pairs rated by the author on the
+judge's own rubric**, blind — `scripts/26_rate_replies.py` never reads the judge's
+output, so the human rated first and the comparison happened afterwards.
 
-These must be genuine human labels. They will not be generated, estimated, or
-reconstructed by a model.
+The result is negative:
 
-**PENDING-2 — Gemini model IDs and quota.** `scripts/01_check_gemini.py` not yet run.
-Model IDs in `config.yaml` remain `null`.
+| dimension | Spearman rho | quadratic-weighted kappa |
+|---|---|---|
+| relevance | 0.262 | 0.226 |
+| groundedness | -0.119 | -0.078 |
+| helpfulness | 0.279 | 0.101 |
+| tone_fit | -0.019 | -0.008 |
+| completeness | -0.337 | -0.121 |
+
+Agreement on the unsupported-claim flag is **kappa = 0.043** — chance. Judge bias is
+negative on four of five dimensions, meaning the human scored replies *lower* than
+the judge did.
+
+**Decision taken as a result:** judge-based reply-quality numbers are reported but
+explicitly demoted. REPORT.md §5 states that they are unvalidated and must not be
+used to rank the systems. The alternative — presenting judge scores as quality
+because they are the only reply metric available — would have been the easier and
+less honest option.
+
+A second measurement points the same way: the placebo run (B3), fed deliberately
+**random** evidence, scores 2.20 on groundedness against the agent's 2.37. A judge
+that separates real evidence from random evidence by 0.17 points is not measuring
+grounding.
+
+---
+
+# STATUS — what is complete, and what genuinely is not
+
+Last updated after the full evaluation run: 150 human gold labels, 366 live API
+calls, 0 errors, final audit 0 critical.
+
+### Complete
+
+- **Model selection and quota** (was PENDING-2). `scripts/01_check_gemini.py` was run
+  against the live API. `config.yaml` carries real IDs: `gemini-3.5-flash-lite` for
+  generation, `gemini-3.1-flash-lite` for judging — deliberately different models.
+  Measured free-tier ceiling 15 RPM; the client self-throttles (561s of waiting in
+  the final run) rather than absorbing 429s.
+- **Evaluation run.** 150 human-labelled examples through the agent and four
+  baselines; intent, escalation and coverage-risk metrics computed with bootstrap
+  and Wilson intervals.
+- **Judge-human agreement** (see D13). Measured on 30 blind paired ratings.
+- **Reproducibility cache.** 478 recorded responses, ~0.6 MB, committed so the
+  headline numbers replay with no API key. Each entry stores the model, generation
+  parameters, a SHA-256 of the prompt and the response — **never the API key and
+  never the raw prompt text**.
+
+### Genuinely still pending — not resolved, not estimated
+
+- **Resolution-proxy validation (was PENDING-1).** The 40 sampled exchanges in
+  `results/phase0/samples_for_manual_reading.md` were read, but the R/D/N/U label
+  sequence **was never recorded**. No proxy-precision number exists, so
+  `is_deflection` and the thread-depth signals remain unvalidated heuristics
+  wherever they appear. These must be genuine human labels; they will not be
+  generated, estimated or reconstructed by a model.
+- **Retrieval Precision@5.** The hand-judged 50-query evaluation was not run.
+  Retrieval quality is unmeasured, which is also why the dense-retrieval contingency
+  in D-retrieval never fired — its trigger could not be evaluated either way.
+
+Both are reported as PENDING in REPORT.md and as WARN by `scripts/99_audit.py`.
+Neither is required by the assignment; both are limitations this project chose to
+state rather than fill in.
